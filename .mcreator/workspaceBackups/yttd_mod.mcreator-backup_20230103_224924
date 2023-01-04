@@ -1,0 +1,57 @@
+{
+  "mod_elements": [
+    {
+      "name": "Caixa",
+      "type": "block",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "caixa"
+    },
+    {
+      "name": "Caixagui",
+      "type": "gui",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "caixagui"
+    },
+    {
+      "name": "Codigogui",
+      "type": "gui",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "codigogui"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "block.yttd_mod.caixa": "Caixa"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "yttd_mod",
+    "modName": "YTTD Mod",
+    "version": "1.0.0",
+    "author": "lojon, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.19.2",
+    "modElementsPackage": "net.mcreator.yttdmod",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202200348217
+}

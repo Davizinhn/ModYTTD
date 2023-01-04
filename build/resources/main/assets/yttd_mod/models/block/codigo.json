@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "yttd_mod:blocks/top",
+    "up": "yttd_mod:blocks/1",
+    "north": "yttd_mod:blocks/2",
+    "east": "yttd_mod:blocks/bottom",
+    "south": "yttd_mod:blocks/front",
+    "west": "yttd_mod:blocks/back",
+    "particle": "yttd_mod:blocks/top"
+  },
+  "render_type": "solid"
+}
