@@ -19,8 +19,8 @@
             "falpha": 0.0
           },
           "name": "Código Numérico:",
-          "x": 167,
-          "y": 99
+          "x": 170,
+          "y": 95
         }
       },
       {
@@ -30,8 +30,22 @@
           "width": 120,
           "height": 20,
           "name": "Numero",
-          "x": 153,
-          "y": 115
+          "x": 152,
+          "y": 106
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "OK",
+          "onClick": {
+            "name": "CodigoGUIScripr"
+          },
+          "width": 35,
+          "height": 20,
+          "name": "OK",
+          "x": 193,
+          "y": 126
         }
       }
     ],

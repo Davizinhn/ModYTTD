@@ -8,9 +8,12 @@ import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.chat.Component;
 import net.minecraft.client.gui.screens.inventory.AbstractContainerScreen;
 import net.minecraft.client.gui.components.EditBox;
+import net.minecraft.client.gui.components.Button;
 import net.minecraft.client.Minecraft;
 
 import net.mcreator.yttdmod.world.inventory.CodigoguiMenu;
+import net.mcreator.yttdmod.network.CodigoguiButtonMessage;
+import net.mcreator.yttdmod.YttdModMod;
 
 import java.util.HashMap;
 
@@ -74,7 +77,7 @@ public class CodigoguiScreen extends AbstractContainerScreen<CodigoguiMenu> {
 
 	@Override
 	protected void renderLabels(PoseStack poseStack, int mouseX, int mouseY) {
-		this.font.draw(poseStack, "C\u00F3digo Num\u00E9rico:", 41, 11, -12829636);
+		this.font.draw(poseStack, "C\u00F3digo Num\u00E9rico:", 44, 7, -12829636);
 	}
 
 	@Override
@@ -87,7 +90,7 @@ public class CodigoguiScreen extends AbstractContainerScreen<CodigoguiMenu> {
 	public void init() {
 		super.init();
 		this.minecraft.keyboardHandler.setSendRepeatsToGui(true);
-		Numero = new EditBox(this.font, this.leftPos + 27, this.topPos + 27, 120, 20, Component.literal("1234")) {
+		Numero = new EditBox(this.font, this.leftPos + 26, this.topPos + 18, 120, 20, Component.literal("1234")) {
 			{
 				setSuggestion("1234");
 			}
@@ -113,5 +116,11 @@ public class CodigoguiScreen extends AbstractContainerScreen<CodigoguiMenu> {
 		guistate.put("text:Numero", Numero);
 		Numero.setMaxLength(32767);
 		this.addWidget(this.Numero);
+		this.addRenderableWidget(new Button(this.leftPos + 67, this.topPos + 38, 35, 20, Component.literal("OK"), e -> {
+			if (true) {
+				YttdModMod.PACKET_HANDLER.sendToServer(new CodigoguiButtonMessage(0, x, y, z));
+				CodigoguiButtonMessage.handleButtonAction(entity, 0, x, y, z);
+			}
+		}));
 	}
 }
