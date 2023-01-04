@@ -43,13 +43,63 @@
           }
         ]
       }
+    },
+    {
+      "name": "Codigo",
+      "type": "block",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "codigo"
+    },
+    {
+      "name": "Chave",
+      "type": "item",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chave"
+    },
+    {
+      "name": "CaixaOnBlockRightClicked",
+      "type": "procedure",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "caixa_on_block_right_clicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "block.yttd_mod.caixa": "Caixa"
+      "block.yttd_mod.codigo": "Codigo",
+      "block.yttd_mod.caixa": "Caixa",
+      "item.yttd_mod.chave": "Chave"
     }
   },
   "foldersRoot": {
