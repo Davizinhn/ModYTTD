@@ -39,7 +39,7 @@ biomeBlendRadius:2
 renderClouds:"false"
 resourcePacks:[]
 incompatibleResourcePacks:[]
-lastServer:localhost:25463
+lastServer:26.195.188.212:59156
 lang:en_us
 soundDevice:""
 chatVisibility:0

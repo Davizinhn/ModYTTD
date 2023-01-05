@@ -64,7 +64,7 @@ public class CodigoguiButtonMessage {
 			return;
 		if (buttonID == 0) {
 
-			CodigoGUIScriprProcedure.execute(world, entity, guistate);
+			CodigoGUIScriprProcedure.execute(entity, guistate);
 		}
 	}
 

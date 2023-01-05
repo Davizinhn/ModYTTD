@@ -127,6 +127,17 @@
           }
         ]
       }
+    },
+    {
+      "name": "CaixaBlockDestroyedByPlayer",
+      "type": "procedure",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "caixa_block_destroyed_by_player",
+      "metadata": {
+        "dependencies": []
+      }
     }
   ],
   "variable_elements": [],
