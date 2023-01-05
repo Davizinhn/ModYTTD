@@ -136,14 +136,6 @@
       }
     },
     {
-      "name": "Cabecarizo",
-      "type": "block",
-      "sortid": 11,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "cabecarizo"
-    },
-    {
       "name": "PortaVidro",
       "type": "block",
       "sortid": 11,
@@ -157,6 +149,7 @@
   "language_map": {
     "en_us": {
       "block.yttd_mod.codigo": "Codigo",
+      "block.yttd_mod.porta_vidro": "Porta Vidro",
       "block.yttd_mod.caixa": "Caixa",
       "item.yttd_mod.chave": "Chave"
     }

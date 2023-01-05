@@ -1,0 +1,7 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "yttd_mod:blocks/door_acacia_upper"
+  },
+  "render_type": "solid"
+}

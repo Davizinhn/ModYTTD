@@ -2,20 +2,21 @@
   "_fv": 34,
   "_type": "block",
   "definition": {
-    "texture": "texturadocodigo",
-    "textureTop": "1",
-    "textureLeft": "bottom",
-    "textureFront": "2",
-    "textureRight": "back",
-    "textureBack": "front",
-    "renderType": 2,
-    "customModelName": "codigo3:default",
-    "rotationMode": 1,
+    "texture": "door_acacia_upper",
+    "textureTop": "door_acacia_lower",
+    "textureLeft": "",
+    "textureFront": "",
+    "textureRight": "",
+    "textureBack": "",
+    "renderType": 11,
+    "customModelName": "Single texture",
+    "rotationMode": 0,
     "enablePitch": false,
     "emissiveRendering": false,
     "displayFluidOverlay": false,
     "itemTexture": "",
     "particleTexture": "",
+    "blockBase": "Door",
     "tintType": "No tint",
     "isItemTinted": false,
     "hasTransparency": true,
@@ -26,21 +27,21 @@
       {
         "mx": 0.0,
         "my": 0.0,
-        "mz": 14.0,
+        "mz": 0.0,
         "Mx": 16.0,
         "My": 16.0,
         "Mz": 16.0,
         "subtract": false
       }
     ],
-    "name": "Codigo",
+    "name": "Porta Vidro",
     "specialInfo": [],
     "hardness": 1.0,
     "resistance": 10.0,
     "hasGravity": false,
     "isWaterloggable": false,
     "creativeTab": {
-      "value": "REDSTONE"
+      "value": "BUILDING_BLOCKS"
     },
     "destroyTool": "Not specified",
     "customDrop": {
@@ -51,7 +52,7 @@
     "requiresCorrectTool": false,
     "enchantPowerBonus": 0.0,
     "plantsGrowOn": false,
-    "canRedstoneConnect": true,
+    "canRedstoneConnect": false,
     "lightOpacity": 0,
     "material": {
       "value": "ROCK"
@@ -59,7 +60,7 @@
     "tickRate": 0,
     "tickRandomly": false,
     "isReplaceable": false,
-    "canProvidePower": true,
+    "canProvidePower": false,
     "emittedRedstonePower": {
       "fixedValue": 15.0
     },
@@ -79,7 +80,7 @@
     "isNotColidable": false,
     "isCustomSoundType": false,
     "soundOnStep": {
-      "value": "STONE"
+      "value": "GROUND"
     },
     "breakSound": {
       "value": ""
@@ -107,9 +108,9 @@
     "particleSpawningRadious": 0.5,
     "particleAmount": 4,
     "hasInventory": false,
-    "guiBoundTo": "Codigogui",
-    "openGUIOnRightClick": true,
-    "inventorySize": 0,
+    "guiBoundTo": "<NONE>",
+    "openGUIOnRightClick": false,
+    "inventorySize": 9,
     "inventoryStackSize": 64,
     "inventoryDropWhenDestroyed": true,
     "inventoryComparatorPower": true,

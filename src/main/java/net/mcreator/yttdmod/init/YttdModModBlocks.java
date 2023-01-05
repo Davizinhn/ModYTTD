@@ -10,6 +10,7 @@ import net.minecraftforge.registries.DeferredRegister;
 
 import net.minecraft.world.level.block.Block;
 
+import net.mcreator.yttdmod.block.PortaVidroBlock;
 import net.mcreator.yttdmod.block.CodigoBlock;
 import net.mcreator.yttdmod.block.CaixaBlock;
 import net.mcreator.yttdmod.block.CabecarizoBlock;
@@ -20,4 +21,5 @@ public class YttdModModBlocks {
 	public static final RegistryObject<Block> CAIXA = REGISTRY.register("caixa", () -> new CaixaBlock());
 	public static final RegistryObject<Block> CODIGO = REGISTRY.register("codigo", () -> new CodigoBlock());
 	public static final RegistryObject<Block> CABECARIZO = REGISTRY.register("cabecarizo", () -> new CabecarizoBlock());
+	public static final RegistryObject<Block> PORTA_VIDRO = REGISTRY.register("porta_vidro", () -> new PortaVidroBlock());
 }
