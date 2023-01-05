@@ -1,7 +1,19 @@
 {
   "variants": {
-    "": {
+    "facing=north": {
       "model": "yttd_mod:block/codigo"
+    },
+    "facing=east": {
+      "model": "yttd_mod:block/codigo",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "yttd_mod:block/codigo",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "yttd_mod:block/codigo",
+      "y": 270
     }
   }
 }

@@ -43,7 +43,7 @@ public class CaixaOnBlockRightClickedProcedure {
 			}
 		} else {
 			if (entity instanceof Player _player && !_player.level.isClientSide())
-				_player.displayClientMessage(Component.literal("A Caixa est\u00E1 trancada."), (false));
+				_player.displayClientMessage(Component.literal("A Caixa est\u00E1 trancada."), (true));
 		}
 	}
 }

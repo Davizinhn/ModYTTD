@@ -1,13 +1,18 @@
 {
-  "parent": "block/cube",
+  "parent": "forge:item/default",
+  "loader": "forge:composite",
+  "children": {
+    "part1": {
+      "loader": "forge:obj",
+      "model": "yttd_mod:models/item/model.obj",
+      "emissive_ambient": true,
+      "textures": {
+        "#m_4fbe4d3a-1d48-4787-99af-17603024bc4a": "yttd_mod:blocks/"
+      }
+    }
+  },
   "textures": {
-    "down": "yttd_mod:blocks/top",
-    "up": "yttd_mod:blocks/1",
-    "north": "yttd_mod:blocks/2",
-    "east": "yttd_mod:blocks/bottom",
-    "south": "yttd_mod:blocks/front",
-    "west": "yttd_mod:blocks/back",
-    "particle": "yttd_mod:blocks/top"
+    "particle": "yttd_mod:blocks/texturadocodigo"
   },
   "render_type": "solid"
 }
