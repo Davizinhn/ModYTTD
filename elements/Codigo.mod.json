@@ -26,7 +26,7 @@
       {
         "mx": 0.0,
         "my": 0.0,
-        "mz": 0.0,
+        "mz": 14.0,
         "Mx": 16.0,
         "My": 16.0,
         "Mz": 16.0,
@@ -97,7 +97,7 @@
       "value": ""
     },
     "luminance": 0,
-    "unbreakable": false,
+    "unbreakable": true,
     "breakHarvestLevel": 1,
     "spawnParticles": false,
     "particleToSpawn": {
