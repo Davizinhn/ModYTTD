@@ -120,10 +120,6 @@
           {
             "name": "guistate",
             "type": "map"
-          },
-          {
-            "name": "world",
-            "type": "world"
           }
         ]
       }
@@ -136,24 +132,7 @@
       "locked_code": false,
       "registry_name": "caixa_block_destroyed_by_player",
       "metadata": {
-        "dependencies": [
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
+        "dependencies": []
       }
     }
   ],

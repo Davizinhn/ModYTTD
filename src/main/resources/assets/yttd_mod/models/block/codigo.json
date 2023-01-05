@@ -1,13 +1,9 @@
 {
-  "parent": "block/cube",
+  "parent": "yttd_mod:custom/codigo3",
   "textures": {
-    "down": "yttd_mod:blocks/top",
-    "up": "yttd_mod:blocks/1",
-    "north": "yttd_mod:blocks/2",
-    "east": "yttd_mod:blocks/bottom",
-    "south": "yttd_mod:blocks/front",
-    "west": "yttd_mod:blocks/back",
-    "particle": "yttd_mod:blocks/top"
+    "all": "yttd_mod:blocks/texturadocodigo",
+    "particle": "yttd_mod:blocks/texturadocodigo",
+    "0": "yttd_mod:blocks/texturadocodigo"
   },
   "render_type": "solid"
 }
