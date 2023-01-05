@@ -120,10 +120,6 @@
           {
             "name": "guistate",
             "type": "map"
-          },
-          {
-            "name": "world",
-            "type": "world"
           }
         ]
       }
@@ -138,12 +134,21 @@
       "metadata": {
         "dependencies": []
       }
+    },
+    {
+      "name": "Cabecarizo",
+      "type": "block",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cabecarizo"
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
+      "block.yttd_mod.cabecarizo": "Cabecarizo",
       "block.yttd_mod.codigo": "Codigo",
       "block.yttd_mod.caixa": "Caixa",
       "item.yttd_mod.chave": "Chave"
