@@ -1,10 +1,8 @@
 {
 	"credit": "Made with Blockbench",
-	"parent": "Codigomodel",
-	"texture_size": [32, 32],
 	"textures": {
-		"0": "aaaaaaaaaaaaaaaa",
-		"particle": "aaaaaaaaaaaaaaaa"
+		"0": "texturadocodigo",
+		"particle": "texturadocodigo"
 	},
 	"elements": [
 		{
