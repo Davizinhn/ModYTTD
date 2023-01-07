@@ -1,8 +1,8 @@
 {
   "parent": "block/door_top_right_open",
   "textures": {
-    "bottom": "yttd_mod:blocks/door_acacia_upper",
-    "top": "yttd_mod:blocks/door_acacia_lower"
+    "bottom": "yttd_mod:blocks/door_acacia_lower",
+    "top": "yttd_mod:blocks/door_acacia_upper"
   },
-  "render_type": "solid"
+  "render_type": "cutout"
 }
