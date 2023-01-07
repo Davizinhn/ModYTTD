@@ -1,0 +1,9 @@
+{
+  "parent": "yttd_mod:custom/rizo_cabeca",
+  "textures": {
+    "all": "yttd_mod:blocks/cabeca",
+    "particle": "yttd_mod:blocks/cabeca",
+    "1": "yttd_mod:blocks/cabeca"
+  },
+  "render_type": "solid"
+}
