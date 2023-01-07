@@ -2,8 +2,8 @@
   "_fv": 34,
   "_type": "block",
   "definition": {
-    "texture": "door_acacia_upper",
-    "textureTop": "door_acacia_lower",
+    "texture": "door_acacia_lower",
+    "textureTop": "door_acacia_upper",
     "textureLeft": "",
     "textureFront": "",
     "textureRight": "",
@@ -21,7 +21,7 @@
     "isItemTinted": false,
     "hasTransparency": true,
     "connectedSides": false,
-    "transparencyType": "SOLID",
+    "transparencyType": "CUTOUT",
     "disableOffset": false,
     "boundingBoxes": [
       {

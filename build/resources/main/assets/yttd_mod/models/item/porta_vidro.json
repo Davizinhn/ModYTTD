@@ -1,7 +1,7 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "yttd_mod:blocks/door_acacia_upper"
+    "layer0": "yttd_mod:blocks/door_acacia_lower"
   },
-  "render_type": "solid"
+  "render_type": "cutout"
 }
