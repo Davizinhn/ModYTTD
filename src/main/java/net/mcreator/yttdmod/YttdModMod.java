@@ -31,6 +31,7 @@ import net.minecraft.network.FriendlyByteBuf;
 
 import net.mcreator.yttdmod.init.YttdModModMenus;
 import net.mcreator.yttdmod.init.YttdModModItems;
+import net.mcreator.yttdmod.init.YttdModModEntities;
 import net.mcreator.yttdmod.init.YttdModModBlocks;
 import net.mcreator.yttdmod.init.YttdModModBlockEntities;
 
@@ -53,7 +54,7 @@ public class YttdModMod {
 
 		YttdModModBlocks.REGISTRY.register(bus);
 		YttdModModItems.REGISTRY.register(bus);
-
+		YttdModModEntities.REGISTRY.register(bus);
 		YttdModModBlockEntities.REGISTRY.register(bus);
 
 		YttdModModMenus.REGISTRY.register(bus);
