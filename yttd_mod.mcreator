@@ -158,6 +158,14 @@
           }
         ]
       }
+    },
+    {
+      "name": "Miestre",
+      "type": "painting",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "miestre"
     }
   ],
   "variable_elements": [],

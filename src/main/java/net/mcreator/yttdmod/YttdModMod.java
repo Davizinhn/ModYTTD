@@ -29,6 +29,7 @@ import net.minecraftforge.common.MinecraftForge;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.FriendlyByteBuf;
 
+import net.mcreator.yttdmod.init.YttdModModPaintings;
 import net.mcreator.yttdmod.init.YttdModModMenus;
 import net.mcreator.yttdmod.init.YttdModModItems;
 import net.mcreator.yttdmod.init.YttdModModEntities;
@@ -56,6 +57,8 @@ public class YttdModMod {
 		YttdModModItems.REGISTRY.register(bus);
 		YttdModModEntities.REGISTRY.register(bus);
 		YttdModModBlockEntities.REGISTRY.register(bus);
+
+		YttdModModPaintings.REGISTRY.register(bus);
 
 		YttdModModMenus.REGISTRY.register(bus);
 
