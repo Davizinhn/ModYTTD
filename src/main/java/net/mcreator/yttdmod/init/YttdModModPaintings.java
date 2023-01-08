@@ -15,4 +15,8 @@ import net.mcreator.yttdmod.YttdModMod;
 public class YttdModModPaintings {
 	public static final DeferredRegister<PaintingVariant> REGISTRY = DeferredRegister.create(ForgeRegistries.PAINTING_VARIANTS, YttdModMod.MODID);
 	public static final RegistryObject<PaintingVariant> MIESTRE = REGISTRY.register("miestre", () -> new PaintingVariant(64, 64));
+	public static final RegistryObject<PaintingVariant> ARMAESQUERDA = REGISTRY.register("armaesquerda", () -> new PaintingVariant(16, 16));
+	public static final RegistryObject<PaintingVariant> ARMADIREITA = REGISTRY.register("armadireita", () -> new PaintingVariant(16, 16));
+	public static final RegistryObject<PaintingVariant> CARAMORTOESQUERDA = REGISTRY.register("caramortoesquerda", () -> new PaintingVariant(16, 32));
+	public static final RegistryObject<PaintingVariant> CARAMORTODIREITA = REGISTRY.register("caramortodireita", () -> new PaintingVariant(16, 32));
 }

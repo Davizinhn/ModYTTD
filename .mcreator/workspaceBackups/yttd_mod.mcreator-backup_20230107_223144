@@ -142,6 +142,38 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "dardo"
+    },
+    {
+      "name": "DardoRangedItemUsed",
+      "type": "procedure",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dardo_ranged_item_used",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Miestre",
+      "type": "painting",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "miestre"
+    },
+    {
+      "name": "Armaesquerda",
+      "type": "painting",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "armaesquerda"
     }
   ],
   "variable_elements": [],

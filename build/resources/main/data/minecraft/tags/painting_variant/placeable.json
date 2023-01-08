@@ -1,6 +1,10 @@
 {
   "replace": false,
   "values": [
-    "yttd_mod:miestre"
+    "yttd_mod:miestre",
+    "yttd_mod:armaesquerda",
+    "yttd_mod:armadireita",
+    "yttd_mod:caramortoesquerda",
+    "yttd_mod:caramortodireita"
   ]
 }
