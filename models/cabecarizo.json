@@ -18,5 +18,11 @@
 				"down": {"uv": [12, 0, 8, 4], "texture": "#1"}
 			}
 		}
-	]
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [90, 180, 0],
+			"translation": [-6, -2, 21]
+		}
+	}
 }

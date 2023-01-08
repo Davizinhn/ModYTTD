@@ -1,0 +1,46 @@
+{
+  "_fv": 34,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 130,
+    "height": 170,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "button",
+        "data": {
+          "text": "->",
+          "onClick": {
+            "name": "CSacrificioOnButtomClicked"
+          },
+          "width": 30,
+          "height": 20,
+          "name": "->",
+          "x": 239,
+          "y": 175
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "sacrifice.png",
+          "use1Xscale": false,
+          "name": "sacrifice.png",
+          "x": 148,
+          "y": 35
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 1,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}
