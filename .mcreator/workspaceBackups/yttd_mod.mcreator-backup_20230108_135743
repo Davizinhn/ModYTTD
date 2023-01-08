@@ -158,6 +158,46 @@
           }
         ]
       }
+    },
+    {
+      "name": "Miestre",
+      "type": "painting",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "miestre"
+    },
+    {
+      "name": "Armaesquerda",
+      "type": "painting",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "armaesquerda"
+    },
+    {
+      "name": "Armadireita",
+      "type": "painting",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "armadireita"
+    },
+    {
+      "name": "Caramortoesquerda",
+      "type": "painting",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "caramortoesquerda"
+    },
+    {
+      "name": "Caramortodireita",
+      "type": "painting",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "caramortodireita"
     }
   ],
   "variable_elements": [],

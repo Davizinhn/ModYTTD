@@ -120,14 +120,6 @@
       }
     },
     {
-      "name": "Cabecarizo",
-      "type": "block",
-      "sortid": 11,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "cabecarizo"
-    },
-    {
       "name": "PortaVidro",
       "type": "block",
       "sortid": 11,
@@ -158,13 +150,52 @@
           }
         ]
       }
+    },
+    {
+      "name": "Miestre",
+      "type": "painting",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "miestre"
+    },
+    {
+      "name": "Armaesquerda",
+      "type": "painting",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "armaesquerda"
+    },
+    {
+      "name": "Armadireita",
+      "type": "painting",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "armadireita"
+    },
+    {
+      "name": "Caramortoesquerda",
+      "type": "painting",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "caramortoesquerda"
+    },
+    {
+      "name": "Caramortodireita",
+      "type": "painting",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "caramortodireita"
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "block.yttd_mod.cabecarizo": "Cabecarizo",
       "block.yttd_mod.codigo": "Codigo",
       "block.yttd_mod.porta_vidro": "Porta Vidro",
       "block.yttd_mod.caixa": "Caixa",

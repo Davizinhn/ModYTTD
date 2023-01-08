@@ -1,5 +1,5 @@
 {
-  "parent": "yttd_mod:custom/rizo_cabeca",
+  "parent": "yttd_mod:custom/cabecarizo",
   "textures": {
     "all": "yttd_mod:blocks/cabeca",
     "particle": "yttd_mod:blocks/cabeca",

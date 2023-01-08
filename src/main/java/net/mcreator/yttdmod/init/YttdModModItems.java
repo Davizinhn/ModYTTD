@@ -23,9 +23,9 @@ public class YttdModModItems {
 	public static final RegistryObject<Item> CAIXA = block(YttdModModBlocks.CAIXA, CreativeModeTab.TAB_DECORATIONS);
 	public static final RegistryObject<Item> CODIGO = block(YttdModModBlocks.CODIGO, CreativeModeTab.TAB_REDSTONE);
 	public static final RegistryObject<Item> CHAVE = REGISTRY.register("chave", () -> new ChaveItem());
-	public static final RegistryObject<Item> CABECARIZO = block(YttdModModBlocks.CABECARIZO, CreativeModeTab.TAB_DECORATIONS);
 	public static final RegistryObject<Item> PORTA_VIDRO = doubleBlock(YttdModModBlocks.PORTA_VIDRO, CreativeModeTab.TAB_BUILDING_BLOCKS);
 	public static final RegistryObject<Item> DARDO = REGISTRY.register("dardo", () -> new DardoItem());
+	public static final RegistryObject<Item> CABECARIZO = block(YttdModModBlocks.CABECARIZO, CreativeModeTab.TAB_BUILDING_BLOCKS);
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));

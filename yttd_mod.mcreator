@@ -120,14 +120,6 @@
       }
     },
     {
-      "name": "Cabecarizo",
-      "type": "block",
-      "sortid": 11,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "cabecarizo"
-    },
-    {
       "name": "PortaVidro",
       "type": "block",
       "sortid": 11,
@@ -198,6 +190,14 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "caramortodireita"
+    },
+    {
+      "name": "Cabecarizo",
+      "type": "block",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cabecarizo"
     }
   ],
   "variable_elements": [],
