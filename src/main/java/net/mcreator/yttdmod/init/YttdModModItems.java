@@ -14,8 +14,10 @@ import net.minecraft.world.item.DoubleHighBlockItem;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.BlockItem;
 
+import net.mcreator.yttdmod.item.LixaItem;
 import net.mcreator.yttdmod.item.DardoItem;
 import net.mcreator.yttdmod.item.ChaveItem;
+import net.mcreator.yttdmod.item.Chave2Item;
 import net.mcreator.yttdmod.item.CartaSacrificioItem;
 import net.mcreator.yttdmod.item.CartaItem;
 import net.mcreator.yttdmod.item.CartaCommonerItem;
@@ -34,6 +36,8 @@ public class YttdModModItems {
 	public static final RegistryObject<Item> CARTA_SACRIFICIO = REGISTRY.register("carta_sacrificio", () -> new CartaSacrificioItem());
 	public static final RegistryObject<Item> CARTA_COMMONER = REGISTRY.register("carta_commoner", () -> new CartaCommonerItem());
 	public static final RegistryObject<Item> CARTA_CHAVEMESTRE = REGISTRY.register("carta_chavemestre", () -> new CartaChavemestreItem());
+	public static final RegistryObject<Item> CHAVE_2 = REGISTRY.register("chave_2", () -> new Chave2Item());
+	public static final RegistryObject<Item> LIXA = REGISTRY.register("lixa", () -> new LixaItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));

@@ -587,22 +587,68 @@
       "locked_code": false,
       "registry_name": "c_chavemestregui",
       "path": "~/Cartas/Carta Chavemestre"
+    },
+    {
+      "name": "Chave2",
+      "type": "item",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chave_2",
+      "path": "~/Caixa e Chave"
+    },
+    {
+      "name": "Lixa",
+      "type": "item",
+      "sortid": 40,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lixa",
+      "path": "~/Caixa e Chave"
+    },
+    {
+      "name": "Lixagui",
+      "type": "gui",
+      "sortid": 41,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lixagui",
+      "path": "~/Caixa e Chave"
+    },
+    {
+      "name": "LixaRightclicked",
+      "type": "procedure",
+      "sortid": 42,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lixa_rightclicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Caixa e Chave"
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
+      "item.yttd_mod.carta_sacrificio": "Carta Sacrifício",
+      "item.yttd_mod.chave_2": "Chave",
+      "block.yttd_mod.porta_vidro": "Porta Vidro",
+      "item.yttd_mod.chave": "Chave",
+      "item.yttd_mod.dardo": "Dardo",
       "block.yttd_mod.cabecarizo": "Cabecarizo",
       "item.yttd_mod.carta_chavemestre": "Carta Chavemestre",
       "block.yttd_mod.codigo": "Codigo",
-      "item.yttd_mod.carta_sacrificio": "Carta Sacrifício",
-      "block.yttd_mod.porta_vidro": "Porta Vidro",
+      "item.yttd_mod.lixa": "Lixa",
       "item.yttd_mod.carta_commoner": "Carta Plebeu",
       "item.yttd_mod.carta": "Carta Sábio",
-      "block.yttd_mod.caixa": "Caixa",
-      "item.yttd_mod.chave": "Chave",
-      "item.yttd_mod.dardo": "Dardo"
+      "block.yttd_mod.caixa": "Caixa"
     }
   },
   "foldersRoot": {

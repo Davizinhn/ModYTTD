@@ -6,7 +6,8 @@
       "sortid": 2,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "caixa"
+      "registry_name": "caixa",
+      "path": "~/Caixa e Chave"
     },
     {
       "name": "Caixagui",
@@ -14,7 +15,8 @@
       "sortid": 3,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "caixagui"
+      "registry_name": "caixagui",
+      "path": "~/Caixa e Chave"
     },
     {
       "name": "Codigogui",
@@ -22,7 +24,8 @@
       "sortid": 4,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "codigogui"
+      "registry_name": "codigogui",
+      "path": "~/Codigo"
     },
     {
       "name": "Codigo",
@@ -30,7 +33,8 @@
       "sortid": 4,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "codigo"
+      "registry_name": "codigo",
+      "path": "~/Codigo"
     },
     {
       "name": "Chave",
@@ -38,7 +42,8 @@
       "sortid": 6,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "chave"
+      "registry_name": "chave",
+      "path": "~/Caixa e Chave"
     },
     {
       "name": "CaixaOnBlockRightClicked",
@@ -70,7 +75,8 @@
             "type": "world"
           }
         ]
-      }
+      },
+      "path": "~/Caixa e Chave"
     },
     {
       "name": "CodigoGUIScripr",
@@ -106,7 +112,8 @@
             "type": "world"
           }
         ]
-      }
+      },
+      "path": "~/Codigo"
     },
     {
       "name": "CaixaBlockDestroyedByPlayer",
@@ -117,7 +124,8 @@
       "registry_name": "caixa_block_destroyed_by_player",
       "metadata": {
         "dependencies": []
-      }
+      },
+      "path": "~/Caixa e Chave"
     },
     {
       "name": "PortaVidro",
@@ -125,7 +133,8 @@
       "sortid": 11,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "porta_vidro"
+      "registry_name": "porta_vidro",
+      "path": "~/Dardo e Porta"
     },
     {
       "name": "Dardo",
@@ -133,7 +142,8 @@
       "sortid": 12,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "dardo"
+      "registry_name": "dardo",
+      "path": "~/Dardo e Porta"
     },
     {
       "name": "DardoRangedItemUsed",
@@ -149,7 +159,8 @@
             "type": "entity"
           }
         ]
-      }
+      },
+      "path": "~/Dardo e Porta"
     },
     {
       "name": "Miestre",
@@ -157,7 +168,8 @@
       "sortid": 14,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "miestre"
+      "registry_name": "miestre",
+      "path": "~/Pinturas"
     },
     {
       "name": "Armaesquerda",
@@ -165,7 +177,8 @@
       "sortid": 15,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "armaesquerda"
+      "registry_name": "armaesquerda",
+      "path": "~/Pinturas"
     },
     {
       "name": "Armadireita",
@@ -173,7 +186,8 @@
       "sortid": 16,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "armadireita"
+      "registry_name": "armadireita",
+      "path": "~/Pinturas"
     },
     {
       "name": "Caramortoesquerda",
@@ -181,7 +195,8 @@
       "sortid": 17,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "caramortoesquerda"
+      "registry_name": "caramortoesquerda",
+      "path": "~/Pinturas"
     },
     {
       "name": "Caramortodireita",
@@ -189,7 +204,8 @@
       "sortid": 18,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "caramortodireita"
+      "registry_name": "caramortodireita",
+      "path": "~/Pinturas"
     },
     {
       "name": "Cabecarizo",
@@ -197,7 +213,8 @@
       "sortid": 19,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "cabecarizo"
+      "registry_name": "cabecarizo",
+      "path": "~/Rizo"
     },
     {
       "name": "Cartagui",
@@ -205,7 +222,8 @@
       "sortid": 20,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "cartagui"
+      "registry_name": "cartagui",
+      "path": "~/Cartas/Carta Sabio"
     },
     {
       "name": "Carta",
@@ -213,7 +231,8 @@
       "sortid": 20,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "carta"
+      "registry_name": "carta",
+      "path": "~/Cartas/Carta Sabio"
     },
     {
       "name": "CartaOnButtomClicked",
@@ -245,7 +264,8 @@
             "type": "world"
           }
         ]
-      }
+      },
+      "path": "~/Cartas/Carta Sabio"
     },
     {
       "name": "Versocarta",
@@ -253,7 +273,8 @@
       "sortid": 22,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "versocarta"
+      "registry_name": "versocarta",
+      "path": "~/Cartas/Carta Sabio"
     },
     {
       "name": "VersoCartaOnButtonClicked",
@@ -285,7 +306,8 @@
             "type": "world"
           }
         ]
-      }
+      },
+      "path": "~/Cartas/Carta Sabio"
     },
     {
       "name": "CartaSacrificio",
@@ -293,7 +315,8 @@
       "sortid": 24,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "carta_sacrificio"
+      "registry_name": "carta_sacrificio",
+      "path": "~/Cartas/Carta Sacrificio"
     },
     {
       "name": "CartaSacrificiogui",
@@ -301,7 +324,8 @@
       "sortid": 25,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "carta_sacrificiogui"
+      "registry_name": "carta_sacrificiogui",
+      "path": "~/Cartas/Carta Sacrificio"
     },
     {
       "name": "VCSacrificio",
@@ -309,7 +333,8 @@
       "sortid": 26,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "vc_sacrificio"
+      "registry_name": "vc_sacrificio",
+      "path": "~/Cartas/Carta Sacrificio"
     },
     {
       "name": "CSacrificioOnButtomClicked",
@@ -341,7 +366,8 @@
             "type": "world"
           }
         ]
-      }
+      },
+      "path": "~/Cartas/Carta Sacrificio"
     },
     {
       "name": "VCOnButtomClicked",
@@ -373,26 +399,303 @@
             "type": "world"
           }
         ]
-      }
+      },
+      "path": "~/Cartas/Carta Sacrificio"
+    },
+    {
+      "name": "CartaCommoner",
+      "type": "item",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "carta_commoner",
+      "path": "~/Cartas/Carta Plebeu"
+    },
+    {
+      "name": "CCButtom",
+      "type": "procedure",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cc_buttom",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Cartas/Carta Plebeu"
+    },
+    {
+      "name": "VCCommoner",
+      "type": "gui",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vc_commoner",
+      "path": "~/Cartas/Carta Plebeu"
+    },
+    {
+      "name": "VCButtom",
+      "type": "procedure",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vc_buttom",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Cartas/Carta Plebeu"
+    },
+    {
+      "name": "CCommonergui",
+      "type": "gui",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "c_commonergui",
+      "path": "~/Cartas/Carta Plebeu"
+    },
+    {
+      "name": "CartaChavemestre",
+      "type": "item",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "carta_chavemestre",
+      "path": "~/Cartas/Carta Chavemestre"
+    },
+    {
+      "name": "CCMButtom",
+      "type": "procedure",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ccm_buttom",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Cartas/Carta Chavemestre"
+    },
+    {
+      "name": "VCChavemestregui",
+      "type": "gui",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vc_chavemestregui",
+      "path": "~/Cartas/Carta Chavemestre"
+    },
+    {
+      "name": "VCMButtom",
+      "type": "procedure",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vcm_buttom",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Cartas/Carta Chavemestre"
+    },
+    {
+      "name": "CChavemestregui",
+      "type": "gui",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "c_chavemestregui",
+      "path": "~/Cartas/Carta Chavemestre"
+    },
+    {
+      "name": "Chave2",
+      "type": "item",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chave_2",
+      "path": "~/Caixa e Chave"
+    },
+    {
+      "name": "Lixa",
+      "type": "item",
+      "sortid": 40,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lixa",
+      "path": "~/Caixa e Chave"
+    },
+    {
+      "name": "Lixagui",
+      "type": "gui",
+      "sortid": 41,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lixagui",
+      "path": "~/Caixa e Chave"
+    },
+    {
+      "name": "LixaRightclicked",
+      "type": "procedure",
+      "sortid": 42,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lixa_rightclicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Caixa e Chave"
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "block.yttd_mod.cabecarizo": "Cabecarizo",
-      "block.yttd_mod.codigo": "Codigo",
       "item.yttd_mod.carta_sacrificio": "Carta Sacrifício",
+      "item.yttd_mod.chave_2": "Chave",
       "block.yttd_mod.porta_vidro": "Porta Vidro",
-      "item.yttd_mod.carta": "Carta Sábio",
-      "block.yttd_mod.caixa": "Caixa",
       "item.yttd_mod.chave": "Chave",
-      "item.yttd_mod.dardo": "Dardo"
+      "item.yttd_mod.dardo": "Dardo",
+      "block.yttd_mod.cabecarizo": "Cabecarizo",
+      "item.yttd_mod.carta_chavemestre": "Carta Chavemestre",
+      "block.yttd_mod.codigo": "Codigo",
+      "item.yttd_mod.lixa": "Lixa",
+      "item.yttd_mod.carta_commoner": "Carta Plebeu",
+      "item.yttd_mod.carta": "Carta Sábio",
+      "block.yttd_mod.caixa": "Caixa"
     }
   },
   "foldersRoot": {
     "name": "~",
-    "children": []
+    "children": [
+      {
+        "name": "Pinturas",
+        "children": []
+      },
+      {
+        "name": "Caixa e Chave",
+        "children": []
+      },
+      {
+        "name": "Codigo",
+        "children": []
+      },
+      {
+        "name": "Dardo e Porta",
+        "children": []
+      },
+      {
+        "name": "Rizo",
+        "children": []
+      },
+      {
+        "name": "Cartas",
+        "children": [
+          {
+            "name": "Carta Sabio",
+            "children": []
+          },
+          {
+            "name": "Carta Sacrificio",
+            "children": []
+          },
+          {
+            "name": "Carta Chavemestre",
+            "children": []
+          },
+          {
+            "name": "Carta Plebeu",
+            "children": []
+          }
+        ]
+      }
+    ]
   },
   "workspaceSettings": {
     "modid": "yttd_mod",

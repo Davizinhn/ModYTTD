@@ -15,6 +15,7 @@ import net.mcreator.yttdmod.world.inventory.VersocartaMenu;
 import net.mcreator.yttdmod.world.inventory.VCSacrificioMenu;
 import net.mcreator.yttdmod.world.inventory.VCCommonerMenu;
 import net.mcreator.yttdmod.world.inventory.VCChavemestreguiMenu;
+import net.mcreator.yttdmod.world.inventory.LixaguiMenu;
 import net.mcreator.yttdmod.world.inventory.CodigoguiMenu;
 import net.mcreator.yttdmod.world.inventory.CartaguiMenu;
 import net.mcreator.yttdmod.world.inventory.CartaSacrificioguiMenu;
@@ -45,4 +46,5 @@ public class YttdModModMenus {
 			() -> IForgeMenuType.create(VCChavemestreguiMenu::new));
 	public static final RegistryObject<MenuType<CChavemestreguiMenu>> C_CHAVEMESTREGUI = REGISTRY.register("c_chavemestregui",
 			() -> IForgeMenuType.create(CChavemestreguiMenu::new));
+	public static final RegistryObject<MenuType<LixaguiMenu>> LIXAGUI = REGISTRY.register("lixagui", () -> IForgeMenuType.create(LixaguiMenu::new));
 }
