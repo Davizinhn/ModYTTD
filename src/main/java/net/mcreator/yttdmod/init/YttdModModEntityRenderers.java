@@ -16,5 +16,6 @@ public class YttdModModEntityRenderers {
 	@SubscribeEvent
 	public static void registerEntityRenderers(EntityRenderersEvent.RegisterRenderers event) {
 		event.registerEntityRenderer(YttdModModEntities.DARDO.get(), ThrownItemRenderer::new);
+		event.registerEntityRenderer(YttdModModEntities.ARMATESTE.get(), ThrownItemRenderer::new);
 	}
 }

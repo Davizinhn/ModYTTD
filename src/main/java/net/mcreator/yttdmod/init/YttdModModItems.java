@@ -22,6 +22,7 @@ import net.mcreator.yttdmod.item.CartaSacrificioItem;
 import net.mcreator.yttdmod.item.CartaItem;
 import net.mcreator.yttdmod.item.CartaCommonerItem;
 import net.mcreator.yttdmod.item.CartaChavemestreItem;
+import net.mcreator.yttdmod.item.ArmatesteItem;
 import net.mcreator.yttdmod.YttdModMod;
 
 public class YttdModModItems {
@@ -45,6 +46,7 @@ public class YttdModModItems {
 	public static final RegistryObject<Item> TORSO = block(YttdModModBlocks.TORSO, CreativeModeTab.TAB_BUILDING_BLOCKS);
 	public static final RegistryObject<Item> TESTE_3 = block(YttdModModBlocks.TESTE_3, CreativeModeTab.TAB_BUILDING_BLOCKS);
 	public static final RegistryObject<Item> BRACONSEI = block(YttdModModBlocks.BRACONSEI, CreativeModeTab.TAB_BUILDING_BLOCKS);
+	public static final RegistryObject<Item> ARMATESTE = REGISTRY.register("armateste", () -> new ArmatesteItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));

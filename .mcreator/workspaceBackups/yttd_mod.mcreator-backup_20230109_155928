@@ -7,7 +7,7 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "caixa",
-      "path": "~/Caixa e Chave"
+      "path": "~/Caixa e Chave/Caixa"
     },
     {
       "name": "Caixagui",
@@ -16,7 +16,7 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "caixagui",
-      "path": "~/Caixa e Chave"
+      "path": "~/Caixa e Chave/Caixa"
     },
     {
       "name": "Codigogui",
@@ -76,7 +76,7 @@
           }
         ]
       },
-      "path": "~/Caixa e Chave"
+      "path": "~/Caixa e Chave/Caixa"
     },
     {
       "name": "CodigoGUIScripr",
@@ -109,7 +109,7 @@
       "metadata": {
         "dependencies": []
       },
-      "path": "~/Caixa e Chave"
+      "path": "~/Caixa e Chave/Caixa"
     },
     {
       "name": "PortaVidro",
@@ -591,23 +591,6 @@
       "path": "~/Caixa e Chave"
     },
     {
-      "name": "LixaRightclicked",
-      "type": "procedure",
-      "sortid": 42,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "lixa_rightclicked",
-      "metadata": {
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          }
-        ]
-      },
-      "path": "~/Caixa e Chave"
-    },
-    {
       "name": "Bracoesquerdo1",
       "type": "block",
       "sortid": 43,
@@ -678,6 +661,35 @@
       "locked_code": false,
       "registry_name": "braconsei",
       "path": "~/Rizo"
+    },
+    {
+      "name": "LixaOnButtomClicked",
+      "type": "procedure",
+      "sortid": 51,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lixa_on_buttom_clicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Caixa e Chave"
+    },
+    {
+      "name": "LixaRightclicked",
+      "type": "procedure",
+      "sortid": 52,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lixa_rightclicked",
+      "metadata": {
+        "dependencies": []
+      },
+      "path": "~/Caixa e Chave"
     }
   ],
   "variable_elements": [],
@@ -686,12 +698,12 @@
     "en_us": {
       "block.yttd_mod.pernaesquerda_2": "Pernaesquerda 2",
       "item.yttd_mod.carta_sacrificio": "Carta Sacrifício",
-      "item.yttd_mod.chave_2": "Chave",
+      "item.yttd_mod.chave_2": "Chave Vermelha",
       "block.yttd_mod.porta_vidro": "Porta Vidro",
       "block.yttd_mod.teste_3": "Teste 3",
       "block.yttd_mod.bracoesquerdo_1": "Bracoesquerdo 1",
       "block.yttd_mod.torso": "Torso",
-      "item.yttd_mod.chave": "Chave",
+      "item.yttd_mod.chave": "Chave Verde",
       "item.yttd_mod.dardo": "Dardo",
       "block.yttd_mod.cabecavamoversevai": "Cabecavamoversevai",
       "item.yttd_mod.carta_chavemestre": "Carta Chavemestre",
@@ -714,7 +726,12 @@
       },
       {
         "name": "Caixa e Chave",
-        "children": []
+        "children": [
+          {
+            "name": "Caixa",
+            "children": []
+          }
+        ]
       },
       {
         "name": "Codigo",
@@ -748,6 +765,10 @@
             "children": []
           }
         ]
+      },
+      {
+        "name": "Arma",
+        "children": []
       }
     ]
   },

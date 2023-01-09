@@ -690,6 +690,24 @@
         "dependencies": []
       },
       "path": "~/Caixa e Chave"
+    },
+    {
+      "name": "Armagui",
+      "type": "gui",
+      "sortid": 53,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "armagui",
+      "path": "~/Arma"
+    },
+    {
+      "name": "Armateste",
+      "type": "rangeditem",
+      "sortid": 53,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "armateste",
+      "path": "~/Arma"
     }
   ],
   "variable_elements": [],
@@ -702,6 +720,7 @@
       "block.yttd_mod.porta_vidro": "Porta Vidro",
       "block.yttd_mod.teste_3": "Teste 3",
       "block.yttd_mod.bracoesquerdo_1": "Bracoesquerdo 1",
+      "item.yttd_mod.armateste": "Arma",
       "block.yttd_mod.torso": "Torso",
       "item.yttd_mod.chave": "Chave Verde",
       "item.yttd_mod.dardo": "Dardo",
@@ -765,6 +784,10 @@
             "children": []
           }
         ]
+      },
+      {
+        "name": "Arma",
+        "children": []
       }
     ]
   },

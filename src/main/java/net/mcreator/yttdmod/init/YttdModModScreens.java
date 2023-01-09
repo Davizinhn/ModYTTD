@@ -22,6 +22,7 @@ import net.mcreator.yttdmod.client.gui.CartaSacrificioguiScreen;
 import net.mcreator.yttdmod.client.gui.CaixaguiScreen;
 import net.mcreator.yttdmod.client.gui.CCommonerguiScreen;
 import net.mcreator.yttdmod.client.gui.CChavemestreguiScreen;
+import net.mcreator.yttdmod.client.gui.ArmaguiScreen;
 
 @Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
 public class YttdModModScreens {
@@ -39,6 +40,7 @@ public class YttdModModScreens {
 			MenuScreens.register(YttdModModMenus.VC_CHAVEMESTREGUI.get(), VCChavemestreguiScreen::new);
 			MenuScreens.register(YttdModModMenus.C_CHAVEMESTREGUI.get(), CChavemestreguiScreen::new);
 			MenuScreens.register(YttdModModMenus.LIXAGUI.get(), LixaguiScreen::new);
+			MenuScreens.register(YttdModModMenus.ARMAGUI.get(), ArmaguiScreen::new);
 		});
 	}
 }
