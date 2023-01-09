@@ -1,14 +1,21 @@
 {
+  "block.yttd_mod.pernaesquerda_2": "Pernaesquerda 2",
   "item.yttd_mod.carta_sacrificio": "Carta Sacrifício",
   "item.yttd_mod.chave_2": "Chave",
   "block.yttd_mod.porta_vidro": "Porta Vidro",
+  "block.yttd_mod.teste_3": "Teste 3",
+  "block.yttd_mod.bracoesquerdo_1": "Bracoesquerdo 1",
+  "block.yttd_mod.torso": "Torso",
   "item.yttd_mod.chave": "Chave",
   "item.yttd_mod.dardo": "Dardo",
-  "block.yttd_mod.cabecarizo": "Cabecarizo",
+  "block.yttd_mod.cabecavamoversevai": "Cabecavamoversevai",
   "item.yttd_mod.carta_chavemestre": "Carta Chavemestre",
   "block.yttd_mod.codigo": "Codigo",
   "item.yttd_mod.lixa": "Lixa",
+  "block.yttd_mod.bracodireito_2": "Bracodireito 2",
+  "block.yttd_mod.braconsei": "Braconsei",
   "item.yttd_mod.carta_commoner": "Carta Plebeu",
   "item.yttd_mod.carta": "Carta Sábio",
-  "block.yttd_mod.caixa": "Caixa"
+  "block.yttd_mod.caixa": "Caixa",
+  "block.yttd_mod.pernaesquerda_1": "Pernaesquerda 1"
 }
