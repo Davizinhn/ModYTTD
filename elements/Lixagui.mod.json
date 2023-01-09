@@ -20,35 +20,8 @@
           "disableStackInteraction": false,
           "dropItemsWhenNotBound": true,
           "name": "Slot #0",
-          "x": 203,
-          "y": 61
-        }
-      },
-      {
-        "type": "label",
-        "data": {
-          "text": "Item lixado:",
-          "color": {
-            "value": -12829636,
-            "falpha": 0.0
-          },
-          "name": "Item lixado:",
-          "x": 181,
-          "y": 86
-        }
-      },
-      {
-        "type": "inputslot",
-        "data": {
-          "inputLimit": {
-            "value": ""
-          },
-          "id": 1,
-          "disableStackInteraction": true,
-          "dropItemsWhenNotBound": true,
-          "name": "Slot #1",
-          "x": 204,
-          "y": 96
+          "x": 141,
+          "y": 72
         }
       },
       {
@@ -65,16 +38,28 @@
         }
       },
       {
-        "type": "label",
+        "type": "outputslot",
         "data": {
-          "text": "Item para lixar:",
-          "color": {
-            "value": -12829636,
-            "falpha": 0.0
+          "id": 2,
+          "disableStackInteraction": false,
+          "dropItemsWhenNotBound": true,
+          "name": "Slot #2",
+          "x": 263,
+          "y": 72
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Lixar",
+          "onClick": {
+            "name": "LixaOnButtomClicked"
           },
-          "name": "Item para lixar:",
-          "x": 171,
-          "y": 50
+          "width": 51,
+          "height": 20,
+          "name": "Lixar",
+          "x": 173,
+          "y": 71
         }
       }
     ],

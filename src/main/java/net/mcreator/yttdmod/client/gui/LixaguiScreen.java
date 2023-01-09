@@ -7,9 +7,12 @@ import net.minecraft.world.entity.player.Inventory;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.chat.Component;
 import net.minecraft.client.gui.screens.inventory.AbstractContainerScreen;
+import net.minecraft.client.gui.components.Button;
 import net.minecraft.client.Minecraft;
 
 import net.mcreator.yttdmod.world.inventory.LixaguiMenu;
+import net.mcreator.yttdmod.network.LixaguiButtonMessage;
+import net.mcreator.yttdmod.YttdModMod;
 
 import java.util.HashMap;
 
@@ -68,9 +71,7 @@ public class LixaguiScreen extends AbstractContainerScreen<LixaguiMenu> {
 
 	@Override
 	protected void renderLabels(PoseStack poseStack, int mouseX, int mouseY) {
-		this.font.draw(poseStack, "Item lixado:", 55, 49, -12829636);
 		this.font.draw(poseStack, "Lixa", 5, 5, -12829636);
-		this.font.draw(poseStack, "Item para lixar:", 45, 13, -12829636);
 	}
 
 	@Override
@@ -83,5 +84,11 @@ public class LixaguiScreen extends AbstractContainerScreen<LixaguiMenu> {
 	public void init() {
 		super.init();
 		this.minecraft.keyboardHandler.setSendRepeatsToGui(true);
+		this.addRenderableWidget(new Button(this.leftPos + 47, this.topPos + 34, 51, 20, Component.literal("Lixar"), e -> {
+			if (true) {
+				YttdModMod.PACKET_HANDLER.sendToServer(new LixaguiButtonMessage(0, x, y, z));
+				LixaguiButtonMessage.handleButtonAction(entity, 0, x, y, z);
+			}
+		}));
 	}
 }

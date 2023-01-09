@@ -38,7 +38,7 @@ public class LixaguiMenu extends AbstractContainerMenu implements Supplier<Map<I
 		super(YttdModModMenus.LIXAGUI.get(), id);
 		this.entity = inv.player;
 		this.world = inv.player.level;
-		this.internal = new ItemStackHandler(2);
+		this.internal = new ItemStackHandler(3);
 		BlockPos pos = null;
 		if (extraData != null) {
 			pos = extraData.readBlockPos();
@@ -76,18 +76,13 @@ public class LixaguiMenu extends AbstractContainerMenu implements Supplier<Map<I
 				}
 			}
 		}
-		this.customSlots.put(0, this.addSlot(new SlotItemHandler(internal, 0, 78, 25) {
+		this.customSlots.put(0, this.addSlot(new SlotItemHandler(internal, 0, 16, 36) {
 			@Override
 			public boolean mayPlace(ItemStack stack) {
 				return (YttdModModItems.CHAVE_2.get() == stack.getItem());
 			}
 		}));
-		this.customSlots.put(1, this.addSlot(new SlotItemHandler(internal, 1, 79, 60) {
-			@Override
-			public boolean mayPickup(Player player) {
-				return false;
-			}
-
+		this.customSlots.put(2, this.addSlot(new SlotItemHandler(internal, 2, 138, 36) {
 			@Override
 			public boolean mayPlace(ItemStack stack) {
 				return false;

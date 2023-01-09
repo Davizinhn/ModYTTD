@@ -94,22 +94,6 @@
           {
             "name": "guistate",
             "type": "map"
-          },
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
           }
         ]
       },
@@ -614,12 +598,7 @@
       "locked_code": false,
       "registry_name": "lixa_rightclicked",
       "metadata": {
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          }
-        ]
+        "dependencies": []
       },
       "path": "~/Caixa e Chave"
     },
@@ -685,6 +664,32 @@
       "locked_code": false,
       "registry_name": "teste_3",
       "path": "~/Rizo"
+    },
+    {
+      "name": "Braconsei",
+      "type": "block",
+      "sortid": 50,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "braconsei",
+      "path": "~/Rizo"
+    },
+    {
+      "name": "LixaOnButtomClicked",
+      "type": "procedure",
+      "sortid": 51,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lixa_on_buttom_clicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Caixa e Chave"
     }
   ],
   "variable_elements": [],
@@ -705,6 +710,7 @@
       "block.yttd_mod.codigo": "Codigo",
       "item.yttd_mod.lixa": "Lixa",
       "block.yttd_mod.bracodireito_2": "Bracodireito 2",
+      "block.yttd_mod.braconsei": "Braconsei",
       "item.yttd_mod.carta_commoner": "Carta Plebeu",
       "item.yttd_mod.carta": "Carta Sábio",
       "block.yttd_mod.caixa": "Caixa",

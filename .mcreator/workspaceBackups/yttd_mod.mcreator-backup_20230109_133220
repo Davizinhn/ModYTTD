@@ -94,22 +94,6 @@
           {
             "name": "guistate",
             "type": "map"
-          },
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
           }
         ]
       },
@@ -658,6 +642,59 @@
       "locked_code": false,
       "registry_name": "pernaesquerda_2",
       "path": "~/Rizo"
+    },
+    {
+      "name": "Cabecavamoversevai",
+      "type": "block",
+      "sortid": 47,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cabecavamoversevai",
+      "path": "~/Rizo"
+    },
+    {
+      "name": "Torso",
+      "type": "block",
+      "sortid": 48,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "torso",
+      "path": "~/Rizo"
+    },
+    {
+      "name": "Teste3",
+      "type": "block",
+      "sortid": 49,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "teste_3",
+      "path": "~/Rizo"
+    },
+    {
+      "name": "Braconsei",
+      "type": "block",
+      "sortid": 50,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "braconsei",
+      "path": "~/Rizo"
+    },
+    {
+      "name": "LixaOnButtomClicked",
+      "type": "procedure",
+      "sortid": 51,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lixa_on_buttom_clicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Caixa e Chave"
     }
   ],
   "variable_elements": [],
@@ -668,13 +705,17 @@
       "item.yttd_mod.carta_sacrificio": "Carta Sacrifício",
       "item.yttd_mod.chave_2": "Chave",
       "block.yttd_mod.porta_vidro": "Porta Vidro",
+      "block.yttd_mod.teste_3": "Teste 3",
       "block.yttd_mod.bracoesquerdo_1": "Bracoesquerdo 1",
+      "block.yttd_mod.torso": "Torso",
       "item.yttd_mod.chave": "Chave",
       "item.yttd_mod.dardo": "Dardo",
+      "block.yttd_mod.cabecavamoversevai": "Cabecavamoversevai",
       "item.yttd_mod.carta_chavemestre": "Carta Chavemestre",
       "block.yttd_mod.codigo": "Codigo",
       "item.yttd_mod.lixa": "Lixa",
       "block.yttd_mod.bracodireito_2": "Bracodireito 2",
+      "block.yttd_mod.braconsei": "Braconsei",
       "item.yttd_mod.carta_commoner": "Carta Plebeu",
       "item.yttd_mod.carta": "Carta Sábio",
       "block.yttd_mod.caixa": "Caixa",

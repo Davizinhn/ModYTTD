@@ -23,6 +23,7 @@ import net.minecraft.network.FriendlyByteBuf;
 import net.minecraft.nbt.CompoundTag;
 
 import net.mcreator.yttdmod.world.inventory.LixaguiMenu;
+import net.mcreator.yttdmod.procedures.LixaRightclickedProcedure;
 import net.mcreator.yttdmod.item.inventory.LixaInventoryCapability;
 
 import javax.annotation.Nullable;
@@ -60,6 +61,8 @@ public class LixaItem extends Item {
 				buf.writeByte(hand == InteractionHand.MAIN_HAND ? 0 : 1);
 			});
 		}
+
+		LixaRightclickedProcedure.execute();
 		return ar;
 	}
 
