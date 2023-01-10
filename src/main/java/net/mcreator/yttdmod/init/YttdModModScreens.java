@@ -15,6 +15,7 @@ import net.mcreator.yttdmod.client.gui.VersocartaScreen;
 import net.mcreator.yttdmod.client.gui.VCSacrificioScreen;
 import net.mcreator.yttdmod.client.gui.VCCommonerScreen;
 import net.mcreator.yttdmod.client.gui.VCChavemestreguiScreen;
+import net.mcreator.yttdmod.client.gui.Teste5guiScreen;
 import net.mcreator.yttdmod.client.gui.LixaguiScreen;
 import net.mcreator.yttdmod.client.gui.CodigoguiScreen;
 import net.mcreator.yttdmod.client.gui.CartaguiScreen;
@@ -41,6 +42,7 @@ public class YttdModModScreens {
 			MenuScreens.register(YttdModModMenus.C_CHAVEMESTREGUI.get(), CChavemestreguiScreen::new);
 			MenuScreens.register(YttdModModMenus.LIXAGUI.get(), LixaguiScreen::new);
 			MenuScreens.register(YttdModModMenus.ARMAGUI.get(), ArmaguiScreen::new);
+			MenuScreens.register(YttdModModMenus.TESTE_5GUI.get(), Teste5guiScreen::new);
 		});
 	}
 }

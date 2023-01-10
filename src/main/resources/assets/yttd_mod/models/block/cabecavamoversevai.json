@@ -1,9 +1,0 @@
-{
-  "parent": "yttd_mod:custom/cabecavamoversevai",
-  "textures": {
-    "all": "yttd_mod:blocks/cabeca",
-    "particle": "yttd_mod:blocks/cabeca",
-    "0": "yttd_mod:blocks/cabeca"
-  },
-  "render_type": "solid"
-}

@@ -1,9 +1,0 @@
-{
-  "parent": "yttd_mod:custom/pernaesquerda2",
-  "textures": {
-    "all": "yttd_mod:blocks/perna2",
-    "particle": "yttd_mod:blocks/perna2",
-    "0": "yttd_mod:blocks/perna2"
-  },
-  "render_type": "solid"
-}

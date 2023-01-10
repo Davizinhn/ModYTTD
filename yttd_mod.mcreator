@@ -591,78 +591,6 @@
       "path": "~/Caixa e Chave"
     },
     {
-      "name": "Bracoesquerdo1",
-      "type": "block",
-      "sortid": 43,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "bracoesquerdo_1",
-      "path": "~/Rizo"
-    },
-    {
-      "name": "Pernaesquerda1",
-      "type": "block",
-      "sortid": 44,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "pernaesquerda_1",
-      "path": "~/Rizo"
-    },
-    {
-      "name": "Bracodireito2",
-      "type": "block",
-      "sortid": 45,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "bracodireito_2",
-      "path": "~/Rizo"
-    },
-    {
-      "name": "Pernaesquerda2",
-      "type": "block",
-      "sortid": 46,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "pernaesquerda_2",
-      "path": "~/Rizo"
-    },
-    {
-      "name": "Cabecavamoversevai",
-      "type": "block",
-      "sortid": 47,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "cabecavamoversevai",
-      "path": "~/Rizo"
-    },
-    {
-      "name": "Torso",
-      "type": "block",
-      "sortid": 48,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "torso",
-      "path": "~/Rizo"
-    },
-    {
-      "name": "Teste3",
-      "type": "block",
-      "sortid": 49,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "teste_3",
-      "path": "~/Rizo"
-    },
-    {
-      "name": "Braconsei",
-      "type": "block",
-      "sortid": 50,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "braconsei",
-      "path": "~/Rizo"
-    },
-    {
       "name": "LixaOnButtomClicked",
       "type": "procedure",
       "sortid": 51,
@@ -708,32 +636,146 @@
       "locked_code": false,
       "registry_name": "armateste",
       "path": "~/Arma"
+    },
+    {
+      "name": "Teste5",
+      "type": "block",
+      "sortid": 55,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "teste_5",
+      "path": "~/Rizo"
+    },
+    {
+      "name": "Torsoitem",
+      "type": "item",
+      "sortid": 56,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "torsoitem",
+      "path": "~/Rizo"
+    },
+    {
+      "name": "PernaEsquerdaItem",
+      "type": "item",
+      "sortid": 57,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "perna_esquerda_item",
+      "path": "~/Rizo"
+    },
+    {
+      "name": "PernadireitaItem",
+      "type": "item",
+      "sortid": 58,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pernadireita_item",
+      "path": "~/Rizo"
+    },
+    {
+      "name": "CabecaItem",
+      "type": "item",
+      "sortid": 59,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cabeca_item",
+      "path": "~/Rizo"
+    },
+    {
+      "name": "Teste5gui",
+      "type": "gui",
+      "sortid": 60,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "teste_5gui",
+      "path": "~/Rizo"
+    },
+    {
+      "name": "Teste5OnBlockRightClicked",
+      "type": "procedure",
+      "sortid": 61,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "teste_5_on_block_right_clicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Rizo"
+    },
+    {
+      "name": "Bracodireito",
+      "type": "item",
+      "sortid": 62,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bracodireito",
+      "path": "~/Rizo"
+    },
+    {
+      "name": "Bracoesquerdo",
+      "type": "item",
+      "sortid": 63,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bracoesquerdo",
+      "path": "~/Rizo"
+    },
+    {
+      "name": "Naguentomais",
+      "type": "block",
+      "sortid": 64,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "naguentomais",
+      "path": "~/Rizo"
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "block.yttd_mod.pernaesquerda_2": "Pernaesquerda 2",
-      "item.yttd_mod.carta_sacrificio": "Carta Sacrifício",
+      "item.yttd_mod.pernadireita_item": "Perna Direita da Boneca",
       "item.yttd_mod.chave_2": "Chave Vermelha",
+      "item.yttd_mod.torsoitem": "Torso da Boneca",
       "block.yttd_mod.porta_vidro": "Porta Vidro",
-      "block.yttd_mod.teste_3": "Teste 3",
-      "block.yttd_mod.bracoesquerdo_1": "Bracoesquerdo 1",
       "item.yttd_mod.armateste": "Arma",
-      "block.yttd_mod.torso": "Torso",
+      "block.yttd_mod.teste_5": "Base Boneca",
       "item.yttd_mod.chave": "Chave Verde",
       "item.yttd_mod.dardo": "Dardo",
-      "block.yttd_mod.cabecavamoversevai": "Cabecavamoversevai",
       "item.yttd_mod.carta_chavemestre": "Carta Chavemestre",
+      "item.yttd_mod.carta_commoner": "Carta Plebeu",
+      "item.yttd_mod.perna_esquerda_item": "Perna Esquerda da Boneca",
+      "block.yttd_mod.caixa": "Caixa",
+      "item.yttd_mod.bracoesquerdo": "Braço Direito da Boneca",
+      "block.yttd_mod.naguentomais": "Boneca Completa",
+      "item.yttd_mod.carta_sacrificio": "Carta Sacrifício",
+      "item.yttd_mod.cabeca_item": "Cabeça da Boneca",
       "block.yttd_mod.codigo": "Codigo",
       "item.yttd_mod.lixa": "Lixa",
-      "block.yttd_mod.bracodireito_2": "Bracodireito 2",
-      "block.yttd_mod.braconsei": "Braconsei",
-      "item.yttd_mod.carta_commoner": "Carta Plebeu",
       "item.yttd_mod.carta": "Carta Sábio",
-      "block.yttd_mod.caixa": "Caixa",
-      "block.yttd_mod.pernaesquerda_1": "Pernaesquerda 1"
+      "item.yttd_mod.bracodireito": "Braço Esquerdo da Boneca"
     }
   },
   "foldersRoot": {

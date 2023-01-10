@@ -1,9 +1,0 @@
-{
-  "parent": "yttd_mod:custom/torso",
-  "textures": {
-    "all": "yttd_mod:blocks/torso",
-    "particle": "yttd_mod:blocks/torso",
-    "0": "yttd_mod:blocks/torso"
-  },
-  "render_type": "solid"
-}

@@ -1,9 +1,0 @@
-{
-  "parent": "yttd_mod:custom/bracoesquerdo1",
-  "textures": {
-    "all": "yttd_mod:blocks/braco1",
-    "particle": "yttd_mod:blocks/braco1",
-    "0": "yttd_mod:blocks/braco1"
-  },
-  "render_type": "solid"
-}

@@ -1,0 +1,9 @@
+{
+  "parent": "yttd_mod:custom/teste5",
+  "textures": {
+    "all": "yttd_mod:blocks/asdgwgfdfg",
+    "particle": "yttd_mod:blocks/asdgwgfdfg",
+    "0": "yttd_mod:blocks/asdgwgfdfg"
+  },
+  "render_type": "solid"
+}
