@@ -924,6 +924,20 @@
       "locked_code": false,
       "registry_name": "bala_falsa_reload",
       "path": "~/Arma"
+    },
+    {
+      "name": "Colar",
+      "type": "armor",
+      "sortid": 78,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "colar",
+      "metadata": {
+        "eh": true,
+        "el": false,
+        "eb": false,
+        "ec": false
+      }
     }
   ],
   "variable_elements": [],
@@ -933,6 +947,7 @@
       "item.yttd_mod.pernadireita_item": "Perna Direita da Boneca",
       "item.yttd_mod.chave_2": "Chave Vermelha",
       "item.yttd_mod.torsoitem": "Torso da Boneca",
+      "item.yttd_mod.colar_helmet": "Colar",
       "block.yttd_mod.porta_vidro": "Porta Vidro",
       "item.yttd_mod.arma_falsa": "Arma",
       "block.yttd_mod.teste_5": "Base Boneca",
@@ -940,6 +955,7 @@
       "item.yttd_mod.dardo": "Dardo",
       "item.yttd_mod.carta_chavemestre": "Carta Chavemestre",
       "item.yttd_mod.arma_real": "Arma",
+      "item.yttd_mod.colar_chestplate": "Colar Body",
       "key.yttd_mod.bala_falsa_reload": "Bala Real Reload",
       "item.yttd_mod.bala_falsa": "Bala Falsa",
       "item.yttd_mod.carta_commoner": "Carta Plebeu",
@@ -954,6 +970,8 @@
       "item.yttd_mod.lixa": "Lixa",
       "item.yttd_mod.carta": "Carta Sábio",
       "item.yttd_mod.bracodireito": "Braço Esquerdo da Boneca",
+      "item.yttd_mod.colar_leggings": "Colar Leggings",
+      "item.yttd_mod.colar_boots": "Colar Boots",
       "key.yttd_mod.bala_real_reload": "Bala Real Reload"
     }
   },

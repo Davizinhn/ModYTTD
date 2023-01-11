@@ -19,6 +19,7 @@ import net.mcreator.yttdmod.item.PernadireitaItemItem;
 import net.mcreator.yttdmod.item.PernaEsquerdaItemItem;
 import net.mcreator.yttdmod.item.LixaItem;
 import net.mcreator.yttdmod.item.DardoItem;
+import net.mcreator.yttdmod.item.ColarItem;
 import net.mcreator.yttdmod.item.ChaveItem;
 import net.mcreator.yttdmod.item.Chave2Item;
 import net.mcreator.yttdmod.item.CartaSacrificioItem;
@@ -59,6 +60,7 @@ public class YttdModModItems {
 	public static final RegistryObject<Item> ARMA_FALSA = REGISTRY.register("arma_falsa", () -> new ArmaFalsaItem());
 	public static final RegistryObject<Item> BALA_REAL = REGISTRY.register("bala_real", () -> new BalaRealItem());
 	public static final RegistryObject<Item> BALA_FALSA = REGISTRY.register("bala_falsa", () -> new BalaFalsaItem());
+	public static final RegistryObject<Item> COLAR_HELMET = REGISTRY.register("colar_helmet", () -> new ColarItem.Helmet());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));
