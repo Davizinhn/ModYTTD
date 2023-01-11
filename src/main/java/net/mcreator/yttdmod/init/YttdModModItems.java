@@ -28,7 +28,10 @@ import net.mcreator.yttdmod.item.CartaChavemestreItem;
 import net.mcreator.yttdmod.item.CabecaItemItem;
 import net.mcreator.yttdmod.item.BracoesquerdoItem;
 import net.mcreator.yttdmod.item.BracodireitoItem;
-import net.mcreator.yttdmod.item.ArmatesteItem;
+import net.mcreator.yttdmod.item.BalaRealItem;
+import net.mcreator.yttdmod.item.BalaFalsaItem;
+import net.mcreator.yttdmod.item.ArmaRealItem;
+import net.mcreator.yttdmod.item.ArmaFalsaItem;
 import net.mcreator.yttdmod.YttdModMod;
 
 public class YttdModModItems {
@@ -44,7 +47,6 @@ public class YttdModModItems {
 	public static final RegistryObject<Item> CARTA_CHAVEMESTRE = REGISTRY.register("carta_chavemestre", () -> new CartaChavemestreItem());
 	public static final RegistryObject<Item> CHAVE_2 = REGISTRY.register("chave_2", () -> new Chave2Item());
 	public static final RegistryObject<Item> LIXA = REGISTRY.register("lixa", () -> new LixaItem());
-	public static final RegistryObject<Item> ARMATESTE = REGISTRY.register("armateste", () -> new ArmatesteItem());
 	public static final RegistryObject<Item> TESTE_5 = block(YttdModModBlocks.TESTE_5, CreativeModeTab.TAB_BUILDING_BLOCKS);
 	public static final RegistryObject<Item> TORSOITEM = REGISTRY.register("torsoitem", () -> new TorsoitemItem());
 	public static final RegistryObject<Item> PERNA_ESQUERDA_ITEM = REGISTRY.register("perna_esquerda_item", () -> new PernaEsquerdaItemItem());
@@ -53,6 +55,10 @@ public class YttdModModItems {
 	public static final RegistryObject<Item> BRACODIREITO = REGISTRY.register("bracodireito", () -> new BracodireitoItem());
 	public static final RegistryObject<Item> BRACOESQUERDO = REGISTRY.register("bracoesquerdo", () -> new BracoesquerdoItem());
 	public static final RegistryObject<Item> NAGUENTOMAIS = block(YttdModModBlocks.NAGUENTOMAIS, CreativeModeTab.TAB_BUILDING_BLOCKS);
+	public static final RegistryObject<Item> ARMA_REAL = REGISTRY.register("arma_real", () -> new ArmaRealItem());
+	public static final RegistryObject<Item> ARMA_FALSA = REGISTRY.register("arma_falsa", () -> new ArmaFalsaItem());
+	public static final RegistryObject<Item> BALA_REAL = REGISTRY.register("bala_real", () -> new BalaRealItem());
+	public static final RegistryObject<Item> BALA_FALSA = REGISTRY.register("bala_falsa", () -> new BalaFalsaItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));

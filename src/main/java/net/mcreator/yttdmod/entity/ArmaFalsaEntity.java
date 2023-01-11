@@ -19,23 +19,24 @@ import net.minecraft.sounds.SoundSource;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.protocol.Packet;
 
+import net.mcreator.yttdmod.init.YttdModModItems;
 import net.mcreator.yttdmod.init.YttdModModEntities;
 
 @OnlyIn(value = Dist.CLIENT, _interface = ItemSupplier.class)
-public class ArmatesteEntity extends AbstractArrow implements ItemSupplier {
-	public ArmatesteEntity(PlayMessages.SpawnEntity packet, Level world) {
-		super(YttdModModEntities.ARMATESTE.get(), world);
+public class ArmaFalsaEntity extends AbstractArrow implements ItemSupplier {
+	public ArmaFalsaEntity(PlayMessages.SpawnEntity packet, Level world) {
+		super(YttdModModEntities.ARMA_FALSA.get(), world);
 	}
 
-	public ArmatesteEntity(EntityType<? extends ArmatesteEntity> type, Level world) {
+	public ArmaFalsaEntity(EntityType<? extends ArmaFalsaEntity> type, Level world) {
 		super(type, world);
 	}
 
-	public ArmatesteEntity(EntityType<? extends ArmatesteEntity> type, double x, double y, double z, Level world) {
+	public ArmaFalsaEntity(EntityType<? extends ArmaFalsaEntity> type, double x, double y, double z, Level world) {
 		super(type, x, y, z, world);
 	}
 
-	public ArmatesteEntity(EntityType<? extends ArmatesteEntity> type, LivingEntity entity, Level world) {
+	public ArmaFalsaEntity(EntityType<? extends ArmaFalsaEntity> type, LivingEntity entity, Level world) {
 		super(type, entity, world);
 	}
 
@@ -47,12 +48,12 @@ public class ArmatesteEntity extends AbstractArrow implements ItemSupplier {
 	@Override
 	@OnlyIn(Dist.CLIENT)
 	public ItemStack getItem() {
-		return new ItemStack(Items.COW_SPAWN_EGG);
+		return new ItemStack(Items.WITHER_SKELETON_SKULL);
 	}
 
 	@Override
 	protected ItemStack getPickupItem() {
-		return ItemStack.EMPTY;
+		return new ItemStack(YttdModModItems.BALA_FALSA.get());
 	}
 
 	@Override
@@ -68,8 +69,8 @@ public class ArmatesteEntity extends AbstractArrow implements ItemSupplier {
 			this.discard();
 	}
 
-	public static ArmatesteEntity shoot(Level world, LivingEntity entity, RandomSource random, float power, double damage, int knockback) {
-		ArmatesteEntity entityarrow = new ArmatesteEntity(YttdModModEntities.ARMATESTE.get(), entity, world);
+	public static ArmaFalsaEntity shoot(Level world, LivingEntity entity, RandomSource random, float power, double damage, int knockback) {
+		ArmaFalsaEntity entityarrow = new ArmaFalsaEntity(YttdModModEntities.ARMA_FALSA.get(), entity, world);
 		entityarrow.shoot(entity.getViewVector(1).x, entity.getViewVector(1).y, entity.getViewVector(1).z, power * 2, 0);
 		entityarrow.setSilent(true);
 		entityarrow.setCritArrow(false);
@@ -82,8 +83,8 @@ public class ArmatesteEntity extends AbstractArrow implements ItemSupplier {
 		return entityarrow;
 	}
 
-	public static ArmatesteEntity shoot(LivingEntity entity, LivingEntity target) {
-		ArmatesteEntity entityarrow = new ArmatesteEntity(YttdModModEntities.ARMATESTE.get(), entity, entity.level);
+	public static ArmaFalsaEntity shoot(LivingEntity entity, LivingEntity target) {
+		ArmaFalsaEntity entityarrow = new ArmaFalsaEntity(YttdModModEntities.ARMA_FALSA.get(), entity, entity.level);
 		double dx = target.getX() - entity.getX();
 		double dy = target.getY() + target.getEyeHeight() - 1.1;
 		double dz = target.getZ() - entity.getZ();
