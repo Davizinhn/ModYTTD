@@ -620,24 +620,6 @@
       "path": "~/Caixa e Chave"
     },
     {
-      "name": "Armagui",
-      "type": "gui",
-      "sortid": 53,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "armagui",
-      "path": "~/Arma"
-    },
-    {
-      "name": "Armateste",
-      "type": "rangeditem",
-      "sortid": 53,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "armateste",
-      "path": "~/Arma"
-    },
-    {
       "name": "Teste5",
       "type": "block",
       "sortid": 55,
@@ -750,6 +732,129 @@
       "locked_code": false,
       "registry_name": "naguentomais",
       "path": "~/Rizo"
+    },
+    {
+      "name": "ArmaReal",
+      "type": "rangeditem",
+      "sortid": 65,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "arma_real",
+      "path": "~/Arma"
+    },
+    {
+      "name": "ArmaFalsa",
+      "type": "rangeditem",
+      "sortid": 66,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "arma_falsa",
+      "path": "~/Arma"
+    },
+    {
+      "name": "BalaReal",
+      "type": "item",
+      "sortid": 67,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bala_real",
+      "path": "~/Arma"
+    },
+    {
+      "name": "BalaFalsa",
+      "type": "item",
+      "sortid": 68,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bala_falsa",
+      "path": "~/Arma"
+    },
+    {
+      "name": "ArmaRealCanUseRangedItem",
+      "type": "procedure",
+      "sortid": 69,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "arma_real_can_use_ranged_item",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      },
+      "path": "~/Arma"
+    },
+    {
+      "name": "ArmaFalsaCanUseRangedItem",
+      "type": "procedure",
+      "sortid": 70,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "arma_falsa_can_use_ranged_item",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      },
+      "path": "~/Arma"
+    },
+    {
+      "name": "ArmaRealRangedItemUsed",
+      "type": "procedure",
+      "sortid": 71,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "arma_real_ranged_item_used",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      },
+      "path": "~/Arma"
+    },
+    {
+      "name": "ArmaFalsaRangedItemUsed",
+      "type": "procedure",
+      "sortid": 72,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "arma_falsa_ranged_item_used",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      },
+      "path": "~/Arma"
+    },
+    {
+      "name": "BalaRealOverlay",
+      "type": "procedure",
+      "sortid": 73,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bala_real_overlay",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Arma"
     }
   ],
   "variable_elements": [],
@@ -762,14 +867,17 @@
       "item.yttd_mod.chave_2": "Chave Vermelha",
       "item.yttd_mod.torsoitem": "Torso da Boneca",
       "block.yttd_mod.porta_vidro": "Porta Vidro",
-      "item.yttd_mod.armateste": "Arma",
+      "item.yttd_mod.arma_falsa": "Arma",
       "block.yttd_mod.teste_5": "Base Boneca",
       "item.yttd_mod.cabeca_item": "Cabeça da Boneca",
       "item.yttd_mod.chave": "Chave Verde",
       "item.yttd_mod.dardo": "Dardo",
+      "item.yttd_mod.bala_real": "Bala Real",
       "item.yttd_mod.carta_chavemestre": "Carta Chavemestre",
+      "item.yttd_mod.arma_real": "Arma",
       "block.yttd_mod.codigo": "Codigo",
       "item.yttd_mod.lixa": "Lixa",
+      "item.yttd_mod.bala_falsa": "Bala Falsa",
       "item.yttd_mod.carta_commoner": "Carta Plebeu",
       "item.yttd_mod.perna_esquerda_item": "Perna Esquerda da Boneca",
       "item.yttd_mod.carta": "Carta Sábio",

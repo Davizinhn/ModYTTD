@@ -3,7 +3,6 @@ package net.mcreator.yttdmod.item;
 
 import net.minecraft.world.level.Level;
 import net.minecraft.world.item.UseAnim;
-import net.minecraft.world.item.ProjectileWeaponItem;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.CreativeModeTab;
@@ -15,7 +14,8 @@ import net.minecraft.world.InteractionResult;
 import net.minecraft.world.InteractionHand;
 import net.minecraft.server.level.ServerPlayer;
 
-import net.mcreator.yttdmod.init.YttdModModItems;
+import net.mcreator.yttdmod.procedures.ArmaRealRangedItemUsedProcedure;
+import net.mcreator.yttdmod.procedures.ArmaRealCanUseRangedItemProcedure;
 import net.mcreator.yttdmod.entity.ArmaRealEntity;
 
 public class ArmaRealItem extends Item {
@@ -45,37 +45,11 @@ public class ArmaRealItem extends Item {
 			double x = entity.getX();
 			double y = entity.getY();
 			double z = entity.getZ();
-			if (true) {
-				ItemStack stack = ProjectileWeaponItem.getHeldProjectile(entity, e -> e.getItem() == YttdModModItems.BALA_REAL.get());
-				if (stack == ItemStack.EMPTY) {
-					for (int i = 0; i < entity.getInventory().items.size(); i++) {
-						ItemStack teststack = entity.getInventory().items.get(i);
-						if (teststack != null && teststack.getItem() == YttdModModItems.BALA_REAL.get()) {
-							stack = teststack;
-							break;
-						}
-					}
-				}
-				if (entity.getAbilities().instabuild || stack != ItemStack.EMPTY) {
-					ArmaRealEntity entityarrow = ArmaRealEntity.shoot(world, entity, world.getRandom(), 1f, 100, 0);
-					itemstack.hurtAndBreak(1, entity, e -> e.broadcastBreakEvent(entity.getUsedItemHand()));
-					if (entity.getAbilities().instabuild) {
-						entityarrow.pickup = AbstractArrow.Pickup.CREATIVE_ONLY;
-					} else {
-						if (new ItemStack(YttdModModItems.BALA_REAL.get()).isDamageableItem()) {
-							if (stack.hurt(1, world.getRandom(), entity)) {
-								stack.shrink(1);
-								stack.setDamageValue(0);
-								if (stack.isEmpty())
-									entity.getInventory().removeItem(stack);
-							}
-						} else {
-							stack.shrink(1);
-							if (stack.isEmpty())
-								entity.getInventory().removeItem(stack);
-						}
-					}
-				}
+			if (ArmaRealCanUseRangedItemProcedure.execute(itemstack)) {
+				ArmaRealEntity entityarrow = ArmaRealEntity.shoot(world, entity, world.getRandom(), 1f, 100, 0);
+				itemstack.hurtAndBreak(1, entity, e -> e.broadcastBreakEvent(entity.getUsedItemHand()));
+				entityarrow.pickup = AbstractArrow.Pickup.DISALLOWED;
+				ArmaRealRangedItemUsedProcedure.execute(itemstack);
 			}
 		}
 	}

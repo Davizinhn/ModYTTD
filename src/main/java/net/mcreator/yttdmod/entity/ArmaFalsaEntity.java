@@ -19,7 +19,6 @@ import net.minecraft.sounds.SoundSource;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.protocol.Packet;
 
-import net.mcreator.yttdmod.init.YttdModModItems;
 import net.mcreator.yttdmod.init.YttdModModEntities;
 
 @OnlyIn(value = Dist.CLIENT, _interface = ItemSupplier.class)
@@ -53,7 +52,7 @@ public class ArmaFalsaEntity extends AbstractArrow implements ItemSupplier {
 
 	@Override
 	protected ItemStack getPickupItem() {
-		return new ItemStack(YttdModModItems.BALA_FALSA.get());
+		return ItemStack.EMPTY;
 	}
 
 	@Override

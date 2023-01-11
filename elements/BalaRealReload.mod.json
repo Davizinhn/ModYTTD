@@ -1,0 +1,12 @@
+{
+  "_fv": 34,
+  "_type": "keybind",
+  "definition": {
+    "triggerKey": "F",
+    "keyBindingName": "Bala Real Reload",
+    "keyBindingCategoryKey": "misc",
+    "onKeyPressed": {
+      "name": "BalaRealReloadOnKeyPressed"
+    }
+  }
+}
