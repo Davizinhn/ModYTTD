@@ -749,7 +749,7 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "arma_falsa",
-      "path": "~/Arma"
+      "path": "~/Arma/Arma Falsa"
     },
     {
       "name": "BalaReal",
@@ -767,7 +767,7 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "bala_falsa",
-      "path": "~/Arma"
+      "path": "~/Arma/Arma Falsa"
     },
     {
       "name": "ArmaRealCanUseRangedItem",
@@ -803,7 +803,7 @@
           }
         ]
       },
-      "path": "~/Arma"
+      "path": "~/Arma/Arma Falsa"
     },
     {
       "name": "ArmaRealRangedItemUsed",
@@ -845,7 +845,7 @@
           }
         ]
       },
-      "path": "~/Arma"
+      "path": "~/Arma/Arma Falsa"
     },
     {
       "name": "BalaRealOverlay",
@@ -887,7 +887,7 @@
           }
         ]
       },
-      "path": "~/Arma"
+      "path": "~/Arma/Arma Falsa"
     },
     {
       "name": "BalaRealReload",
@@ -938,7 +938,7 @@
           }
         ]
       },
-      "path": "~/Arma"
+      "path": "~/Arma/Arma Falsa"
     },
     {
       "name": "BalaFalsaReload",
@@ -947,7 +947,7 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "bala_falsa_reload",
-      "path": "~/Arma"
+      "path": "~/Arma/Arma Falsa"
     },
     {
       "name": "Colar",
@@ -962,14 +962,6 @@
         "eb": false,
         "ec": false
       }
-    },
-    {
-      "name": "J",
-      "type": "code",
-      "sortid": 79,
-      "compiles": true,
-      "locked_code": true,
-      "registry_name": "j"
     }
   ],
   "variable_elements": [
@@ -1074,6 +1066,10 @@
         "children": [
           {
             "name": "Arma Real",
+            "children": []
+          },
+          {
+            "name": "Arma Falsa",
             "children": []
           }
         ]
