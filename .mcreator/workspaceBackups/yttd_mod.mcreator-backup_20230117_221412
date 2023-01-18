@@ -740,7 +740,7 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "arma_real",
-      "path": "~/Arma"
+      "path": "~/Arma/Arma Real"
     },
     {
       "name": "ArmaFalsa",
@@ -758,7 +758,7 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "bala_real",
-      "path": "~/Arma"
+      "path": "~/Arma/Arma Real"
     },
     {
       "name": "BalaFalsa",
@@ -780,12 +780,12 @@
         "return_type": "logic",
         "dependencies": [
           {
-            "name": "itemstack",
-            "type": "itemstack"
+            "name": "world",
+            "type": "world"
           }
         ]
       },
-      "path": "~/Arma"
+      "path": "~/Arma/Arma Real"
     },
     {
       "name": "ArmaFalsaCanUseRangedItem",
@@ -820,7 +820,7 @@
           }
         ]
       },
-      "path": "~/Arma"
+      "path": "~/Arma/Arma Real"
     },
     {
       "name": "ArmaFalsaRangedItemUsed",
@@ -854,7 +854,7 @@
           }
         ]
       },
-      "path": "~/Arma"
+      "path": "~/Arma/Arma Real"
     },
     {
       "name": "BalaFalsaOverlay",
@@ -880,7 +880,7 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "bala_real_reload",
-      "path": "~/Arma"
+      "path": "~/Arma/Arma Real"
     },
     {
       "name": "BalaRealReloadOnKeyPressed",
@@ -894,10 +894,14 @@
           {
             "name": "entity",
             "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
           }
         ]
       },
-      "path": "~/Arma"
+      "path": "~/Arma/Arma Real"
     },
     {
       "name": "BalaFalsaReloadOnKeyPressed",
@@ -924,28 +928,59 @@
       "locked_code": false,
       "registry_name": "bala_falsa_reload",
       "path": "~/Arma"
+    },
+    {
+      "name": "Colar",
+      "type": "armor",
+      "sortid": 78,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "colar",
+      "metadata": {
+        "eh": true,
+        "el": false,
+        "eb": false,
+        "ec": false
+      }
+    },
+    {
+      "name": "J",
+      "type": "code",
+      "sortid": 79,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "j"
     }
   ],
-  "variable_elements": [],
+  "variable_elements": [
+    {
+      "name": "balas",
+      "type": "number",
+      "scope": "map",
+      "value": "0"
+    }
+  ],
   "sound_elements": [],
   "language_map": {
     "en_us": {
       "item.yttd_mod.pernadireita_item": "Perna Direita da Boneca",
       "item.yttd_mod.chave_2": "Chave Vermelha",
       "item.yttd_mod.torsoitem": "Torso da Boneca",
-      "item.yttd_mod.arma_falsa": "Arma",
+      "item.yttd_mod.colar_helmet": "Colar",
       "block.yttd_mod.porta_vidro": "Porta Vidro",
+      "item.yttd_mod.arma_falsa": "Arma falsa",
       "block.yttd_mod.teste_5": "Base Boneca",
       "item.yttd_mod.chave": "Chave Verde",
       "item.yttd_mod.dardo": "Dardo",
       "item.yttd_mod.carta_chavemestre": "Carta Chavemestre",
       "item.yttd_mod.arma_real": "Arma",
+      "item.yttd_mod.colar_chestplate": "Colar Body",
       "key.yttd_mod.bala_falsa_reload": "Bala Real Reload",
       "item.yttd_mod.bala_falsa": "Bala Falsa",
       "item.yttd_mod.carta_commoner": "Carta Plebeu",
       "item.yttd_mod.perna_esquerda_item": "Perna Esquerda da Boneca",
-      "block.yttd_mod.caixa": "Caixa",
       "item.yttd_mod.bracoesquerdo": "Braço Direito da Boneca",
+      "block.yttd_mod.caixa": "Caixa",
       "block.yttd_mod.naguentomais": "Boneca Completa",
       "item.yttd_mod.carta_sacrificio": "Carta Sacrifício",
       "item.yttd_mod.cabeca_item": "Cabeça da Boneca",
@@ -954,6 +989,8 @@
       "item.yttd_mod.lixa": "Lixa",
       "item.yttd_mod.carta": "Carta Sábio",
       "item.yttd_mod.bracodireito": "Braço Esquerdo da Boneca",
+      "item.yttd_mod.colar_leggings": "Colar Leggings",
+      "item.yttd_mod.colar_boots": "Colar Boots",
       "key.yttd_mod.bala_real_reload": "Bala Real Reload"
     }
   },
@@ -1008,7 +1045,12 @@
       },
       {
         "name": "Arma",
-        "children": []
+        "children": [
+          {
+            "name": "Arma Real",
+            "children": []
+          }
+        ]
       }
     ]
   },

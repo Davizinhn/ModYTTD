@@ -740,7 +740,7 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "arma_real",
-      "path": "~/Arma"
+      "path": "~/Arma/Arma Real"
     },
     {
       "name": "ArmaFalsa",
@@ -758,7 +758,7 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "bala_real",
-      "path": "~/Arma"
+      "path": "~/Arma/Arma Real"
     },
     {
       "name": "BalaFalsa",
@@ -780,12 +780,12 @@
         "return_type": "logic",
         "dependencies": [
           {
-            "name": "itemstack",
-            "type": "itemstack"
+            "name": "world",
+            "type": "world"
           }
         ]
       },
-      "path": "~/Arma"
+      "path": "~/Arma/Arma Real"
     },
     {
       "name": "ArmaFalsaCanUseRangedItem",
@@ -817,10 +817,14 @@
           {
             "name": "itemstack",
             "type": "itemstack"
+          },
+          {
+            "name": "world",
+            "type": "world"
           }
         ]
       },
-      "path": "~/Arma"
+      "path": "~/Arma/Arma Real"
     },
     {
       "name": "ArmaFalsaRangedItemUsed",
@@ -851,10 +855,14 @@
           {
             "name": "entity",
             "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
           }
         ]
       },
-      "path": "~/Arma"
+      "path": "~/Arma/Arma Real"
     },
     {
       "name": "BalaFalsaOverlay",
@@ -880,7 +888,7 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "bala_real_reload",
-      "path": "~/Arma"
+      "path": "~/Arma/Arma Real"
     },
     {
       "name": "BalaRealReloadOnKeyPressed",
@@ -894,10 +902,14 @@
           {
             "name": "entity",
             "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
           }
         ]
       },
-      "path": "~/Arma"
+      "path": "~/Arma/Arma Real"
     },
     {
       "name": "BalaFalsaReloadOnKeyPressed",
@@ -938,9 +950,24 @@
         "eb": false,
         "ec": false
       }
+    },
+    {
+      "name": "J",
+      "type": "code",
+      "sortid": 79,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "j"
     }
   ],
-  "variable_elements": [],
+  "variable_elements": [
+    {
+      "name": "balas",
+      "type": "number",
+      "scope": "map",
+      "value": "0"
+    }
+  ],
   "sound_elements": [],
   "language_map": {
     "en_us": {
@@ -949,7 +976,7 @@
       "item.yttd_mod.torsoitem": "Torso da Boneca",
       "item.yttd_mod.colar_helmet": "Colar",
       "block.yttd_mod.porta_vidro": "Porta Vidro",
-      "item.yttd_mod.arma_falsa": "Arma",
+      "item.yttd_mod.arma_falsa": "Arma falsa",
       "block.yttd_mod.teste_5": "Base Boneca",
       "item.yttd_mod.chave": "Chave Verde",
       "item.yttd_mod.dardo": "Dardo",
@@ -1026,7 +1053,12 @@
       },
       {
         "name": "Arma",
-        "children": []
+        "children": [
+          {
+            "name": "Arma Real",
+            "children": []
+          }
+        ]
       }
     ]
   },

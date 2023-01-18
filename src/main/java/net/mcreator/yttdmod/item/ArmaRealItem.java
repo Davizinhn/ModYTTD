@@ -45,11 +45,11 @@ public class ArmaRealItem extends Item {
 			double x = entity.getX();
 			double y = entity.getY();
 			double z = entity.getZ();
-			if (ArmaRealCanUseRangedItemProcedure.execute(itemstack)) {
+			if (ArmaRealCanUseRangedItemProcedure.execute(world)) {
 				ArmaRealEntity entityarrow = ArmaRealEntity.shoot(world, entity, world.getRandom(), 1f, 100, 0);
 				itemstack.hurtAndBreak(1, entity, e -> e.broadcastBreakEvent(entity.getUsedItemHand()));
 				entityarrow.pickup = AbstractArrow.Pickup.DISALLOWED;
-				ArmaRealRangedItemUsedProcedure.execute(itemstack);
+				ArmaRealRangedItemUsedProcedure.execute(world, itemstack);
 			}
 		}
 	}

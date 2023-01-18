@@ -52,7 +52,7 @@ public class BalaRealReloadMessage {
 			return;
 		if (type == 0) {
 
-			BalaRealReloadOnKeyPressedProcedure.execute(entity);
+			BalaRealReloadOnKeyPressedProcedure.execute(world, entity);
 		}
 	}
 
