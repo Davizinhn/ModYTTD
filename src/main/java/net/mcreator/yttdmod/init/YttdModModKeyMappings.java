@@ -34,7 +34,7 @@ public class YttdModModKeyMappings {
 			isDownOld = isDown;
 		}
 	};
-	public static final KeyMapping BALA_FALSA_RELOAD = new KeyMapping("key.yttd_mod.bala_falsa_reload", GLFW.GLFW_KEY_F, "key.categories.misc") {
+	public static final KeyMapping BALA_FALSA_RELOAD = new KeyMapping("key.yttd_mod.bala_falsa_reload", GLFW.GLFW_KEY_G, "key.categories.misc") {
 		private boolean isDownOld = false;
 
 		@Override

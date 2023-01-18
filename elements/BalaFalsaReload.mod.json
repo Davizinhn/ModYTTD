@@ -2,7 +2,7 @@
   "_fv": 34,
   "_type": "keybind",
   "definition": {
-    "triggerKey": "F",
+    "triggerKey": "G",
     "keyBindingName": "Bala Real Reload",
     "keyBindingCategoryKey": "misc",
     "onKeyPressed": {

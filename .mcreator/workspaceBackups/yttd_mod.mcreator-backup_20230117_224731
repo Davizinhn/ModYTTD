@@ -780,8 +780,8 @@
         "return_type": "logic",
         "dependencies": [
           {
-            "name": "itemstack",
-            "type": "itemstack"
+            "name": "world",
+            "type": "world"
           }
         ]
       },
@@ -817,6 +817,10 @@
           {
             "name": "itemstack",
             "type": "itemstack"
+          },
+          {
+            "name": "world",
+            "type": "world"
           }
         ]
       },
@@ -851,6 +855,10 @@
           {
             "name": "entity",
             "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
           }
         ]
       },
@@ -894,6 +902,10 @@
           {
             "name": "entity",
             "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
           }
         ]
       },
@@ -938,9 +950,24 @@
         "eb": false,
         "ec": false
       }
+    },
+    {
+      "name": "J",
+      "type": "code",
+      "sortid": 79,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "j"
     }
   ],
-  "variable_elements": [],
+  "variable_elements": [
+    {
+      "name": "balas",
+      "type": "number",
+      "scope": "map",
+      "value": "0"
+    }
+  ],
   "sound_elements": [],
   "language_map": {
     "en_us": {

@@ -92,6 +92,7 @@ public class YttdModModVariables {
 	public static class MapVariables extends SavedData {
 		public static final String DATA_NAME = "yttd_mod_mapvars";
 		public double balas = 0;
+		public double balasfake = 0;
 
 		public static MapVariables load(CompoundTag tag) {
 			MapVariables data = new MapVariables();
@@ -101,11 +102,13 @@ public class YttdModModVariables {
 
 		public void read(CompoundTag nbt) {
 			balas = nbt.getDouble("balas");
+			balasfake = nbt.getDouble("balasfake");
 		}
 
 		@Override
 		public CompoundTag save(CompoundTag nbt) {
 			nbt.putDouble("balas", balas);
+			nbt.putDouble("balasfake", balasfake);
 			return nbt;
 		}
 

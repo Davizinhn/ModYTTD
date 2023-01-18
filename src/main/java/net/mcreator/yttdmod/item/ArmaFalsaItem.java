@@ -14,6 +14,7 @@ import net.minecraft.world.InteractionResult;
 import net.minecraft.world.InteractionHand;
 import net.minecraft.server.level.ServerPlayer;
 
+import net.mcreator.yttdmod.procedures.ArmaFalsaRangedItemUsedProcedure;
 import net.mcreator.yttdmod.procedures.ArmaFalsaCanUseRangedItemProcedure;
 import net.mcreator.yttdmod.entity.ArmaFalsaEntity;
 
@@ -44,10 +45,11 @@ public class ArmaFalsaItem extends Item {
 			double x = entity.getX();
 			double y = entity.getY();
 			double z = entity.getZ();
-			if (ArmaFalsaCanUseRangedItemProcedure.execute(itemstack)) {
+			if (ArmaFalsaCanUseRangedItemProcedure.execute(world)) {
 				ArmaFalsaEntity entityarrow = ArmaFalsaEntity.shoot(world, entity, world.getRandom(), 1f, 0, 0);
 				itemstack.hurtAndBreak(1, entity, e -> e.broadcastBreakEvent(entity.getUsedItemHand()));
 				entityarrow.pickup = AbstractArrow.Pickup.DISALLOWED;
+				ArmaFalsaRangedItemUsedProcedure.execute(world, itemstack);
 			}
 		}
 	}

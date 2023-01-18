@@ -15,8 +15,6 @@ public class BalaRealReloadOnKeyPressedProcedure {
 			return;
 		if ((entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getItem() == YttdModModItems.ARMA_REAL.get()) {
 			if ((entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getOrCreateTag().getDouble("BalaReal") < 1) {
-				YttdModModVariables.MapVariables.get(world).balas = 0;
-				YttdModModVariables.MapVariables.get(world).syncData(world);
 				if (entity instanceof Player _playerHasItem
 						? _playerHasItem.getInventory().contains(new ItemStack(YttdModModItems.BALA_REAL.get()))
 						: false) {
