@@ -1,0 +1,9 @@
+{
+  "parent": "yttd_mod:custom/naguentomais",
+  "textures": {
+    "all": "yttd_mod:blocks/fffffffffffffffffffffff",
+    "particle": "yttd_mod:blocks/fffffffffffffffffffffff",
+    "0": "yttd_mod:blocks/fffffffffffffffffffffff"
+  },
+  "render_type": "solid"
+}

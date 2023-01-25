@@ -17,6 +17,8 @@ import net.minecraft.world.entity.EntityType;
 import net.minecraft.world.entity.Entity;
 
 import net.mcreator.yttdmod.entity.DardoEntity;
+import net.mcreator.yttdmod.entity.ArmaRealEntity;
+import net.mcreator.yttdmod.entity.ArmaFalsaEntity;
 import net.mcreator.yttdmod.YttdModMod;
 
 @Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD)
@@ -24,6 +26,12 @@ public class YttdModModEntities {
 	public static final DeferredRegister<EntityType<?>> REGISTRY = DeferredRegister.create(ForgeRegistries.ENTITY_TYPES, YttdModMod.MODID);
 	public static final RegistryObject<EntityType<DardoEntity>> DARDO = register("projectile_dardo",
 			EntityType.Builder.<DardoEntity>of(DardoEntity::new, MobCategory.MISC).setCustomClientFactory(DardoEntity::new)
+					.setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(1).sized(0.5f, 0.5f));
+	public static final RegistryObject<EntityType<ArmaRealEntity>> ARMA_REAL = register("projectile_arma_real",
+			EntityType.Builder.<ArmaRealEntity>of(ArmaRealEntity::new, MobCategory.MISC).setCustomClientFactory(ArmaRealEntity::new)
+					.setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(1).sized(0.5f, 0.5f));
+	public static final RegistryObject<EntityType<ArmaFalsaEntity>> ARMA_FALSA = register("projectile_arma_falsa",
+			EntityType.Builder.<ArmaFalsaEntity>of(ArmaFalsaEntity::new, MobCategory.MISC).setCustomClientFactory(ArmaFalsaEntity::new)
 					.setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(1).sized(0.5f, 0.5f));
 
 	private static <T extends Entity> RegistryObject<EntityType<T>> register(String registryname, EntityType.Builder<T> entityTypeBuilder) {
