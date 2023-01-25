@@ -158,6 +158,14 @@
           }
         ]
       }
+    },
+    {
+      "name": "Gun",
+      "type": "item",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gun"
     }
   ],
   "variable_elements": [],
@@ -167,6 +175,7 @@
       "block.yttd_mod.cabecarizo": "Cabecarizo",
       "block.yttd_mod.codigo": "Codigo",
       "block.yttd_mod.porta_vidro": "Porta Vidro",
+      "item.yttd_mod.gun": "Gun",
       "block.yttd_mod.caixa": "Caixa",
       "item.yttd_mod.chave": "Chave",
       "item.yttd_mod.dardo": "Dardo"

@@ -73,17 +73,21 @@
       }
     },
     {
-      "name": "CodigoOnBlockRightClicked",
+      "name": "CodigoGUIScripr",
       "type": "procedure",
-      "sortid": 8,
+      "sortid": 9,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "codigo_on_block_right_clicked",
+      "registry_name": "codigo_gui_scripr",
       "metadata": {
         "dependencies": [
           {
             "name": "entity",
             "type": "entity"
+          },
+          {
+            "name": "guistate",
+            "type": "map"
           },
           {
             "name": "x",
@@ -105,26 +109,6 @@
       }
     },
     {
-      "name": "CodigoGUIScripr",
-      "type": "procedure",
-      "sortid": 9,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "codigo_gui_scripr",
-      "metadata": {
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          },
-          {
-            "name": "guistate",
-            "type": "map"
-          }
-        ]
-      }
-    },
-    {
       "name": "CaixaBlockDestroyedByPlayer",
       "type": "procedure",
       "sortid": 10,
@@ -136,22 +120,65 @@
       }
     },
     {
+      "name": "Cabecarizo",
+      "type": "block",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cabecarizo"
+    },
+    {
       "name": "PortaVidro",
       "type": "block",
       "sortid": 11,
       "compiles": true,
       "locked_code": false,
       "registry_name": "porta_vidro"
+    },
+    {
+      "name": "Dardo",
+      "type": "rangeditem",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dardo"
+    },
+    {
+      "name": "DardoRangedItemUsed",
+      "type": "procedure",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dardo_ranged_item_used",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Gun",
+      "type": "item",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gun"
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
+      "block.yttd_mod.cabecarizo": "Cabecarizo",
       "block.yttd_mod.codigo": "Codigo",
       "block.yttd_mod.porta_vidro": "Porta Vidro",
+      "item.yttd_mod.gun": "Gun",
       "block.yttd_mod.caixa": "Caixa",
-      "item.yttd_mod.chave": "Chave"
+      "item.yttd_mod.chave": "Chave",
+      "item.yttd_mod.dardo": "Dardo"
     }
   },
   "foldersRoot": {

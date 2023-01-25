@@ -142,6 +142,22 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "dardo"
+    },
+    {
+      "name": "DardoRangedItemUsed",
+      "type": "procedure",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dardo_ranged_item_used",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [],
