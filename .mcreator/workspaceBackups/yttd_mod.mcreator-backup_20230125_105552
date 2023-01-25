@@ -749,7 +749,7 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "arma_falsa",
-      "path": "~/Arma"
+      "path": "~/Arma/Arma Falsa"
     },
     {
       "name": "BalaReal",
@@ -767,7 +767,7 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "bala_falsa",
-      "path": "~/Arma"
+      "path": "~/Arma/Arma Falsa"
     },
     {
       "name": "ArmaRealCanUseRangedItem",
@@ -798,12 +798,12 @@
         "return_type": "logic",
         "dependencies": [
           {
-            "name": "itemstack",
-            "type": "itemstack"
+            "name": "world",
+            "type": "world"
           }
         ]
       },
-      "path": "~/Arma"
+      "path": "~/Arma/Arma Falsa"
     },
     {
       "name": "ArmaRealRangedItemUsed",
@@ -817,6 +817,10 @@
           {
             "name": "itemstack",
             "type": "itemstack"
+          },
+          {
+            "name": "world",
+            "type": "world"
           }
         ]
       },
@@ -834,10 +838,14 @@
           {
             "name": "itemstack",
             "type": "itemstack"
+          },
+          {
+            "name": "world",
+            "type": "world"
           }
         ]
       },
-      "path": "~/Arma"
+      "path": "~/Arma/Arma Falsa"
     },
     {
       "name": "BalaRealOverlay",
@@ -851,6 +859,10 @@
           {
             "name": "entity",
             "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
           }
         ]
       },
@@ -868,10 +880,14 @@
           {
             "name": "entity",
             "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
           }
         ]
       },
-      "path": "~/Arma"
+      "path": "~/Arma/Arma Falsa"
     },
     {
       "name": "BalaRealReload",
@@ -915,10 +931,14 @@
           {
             "name": "entity",
             "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
           }
         ]
       },
-      "path": "~/Arma"
+      "path": "~/Arma/Arma Falsa"
     },
     {
       "name": "BalaFalsaReload",
@@ -927,7 +947,7 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "bala_falsa_reload",
-      "path": "~/Arma"
+      "path": "~/Arma/Arma Falsa"
     },
     {
       "name": "Colar",
@@ -942,19 +962,17 @@
         "eb": false,
         "ec": false
       }
-    },
-    {
-      "name": "J",
-      "type": "code",
-      "sortid": 79,
-      "compiles": true,
-      "locked_code": true,
-      "registry_name": "j"
     }
   ],
   "variable_elements": [
     {
       "name": "balas",
+      "type": "number",
+      "scope": "map",
+      "value": "0"
+    },
+    {
+      "name": "balasfake",
       "type": "number",
       "scope": "map",
       "value": "0"
@@ -1048,6 +1066,10 @@
         "children": [
           {
             "name": "Arma Real",
+            "children": []
+          },
+          {
+            "name": "Arma Falsa",
             "children": []
           }
         ]

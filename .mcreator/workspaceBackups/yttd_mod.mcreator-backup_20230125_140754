@@ -749,7 +749,7 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "arma_falsa",
-      "path": "~/Arma"
+      "path": "~/Arma/Arma Falsa"
     },
     {
       "name": "BalaReal",
@@ -767,7 +767,7 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "bala_falsa",
-      "path": "~/Arma"
+      "path": "~/Arma/Arma Falsa"
     },
     {
       "name": "ArmaRealCanUseRangedItem",
@@ -803,7 +803,7 @@
           }
         ]
       },
-      "path": "~/Arma"
+      "path": "~/Arma/Arma Falsa"
     },
     {
       "name": "ArmaRealRangedItemUsed",
@@ -845,7 +845,7 @@
           }
         ]
       },
-      "path": "~/Arma"
+      "path": "~/Arma/Arma Falsa"
     },
     {
       "name": "BalaRealOverlay",
@@ -887,7 +887,7 @@
           }
         ]
       },
-      "path": "~/Arma"
+      "path": "~/Arma/Arma Falsa"
     },
     {
       "name": "BalaRealReload",
@@ -938,7 +938,7 @@
           }
         ]
       },
-      "path": "~/Arma"
+      "path": "~/Arma/Arma Falsa"
     },
     {
       "name": "BalaFalsaReload",
@@ -947,7 +947,7 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "bala_falsa_reload",
-      "path": "~/Arma"
+      "path": "~/Arma/Arma Falsa"
     },
     {
       "name": "Colar",
@@ -964,12 +964,84 @@
       }
     },
     {
-      "name": "J",
-      "type": "code",
+      "name": "PortaVermelhaChaveRightclickedOnBlock",
+      "type": "procedure",
       "sortid": 79,
       "compiles": true,
-      "locked_code": true,
-      "registry_name": "j"
+      "locked_code": false,
+      "registry_name": "porta_vermelha_chave_rightclicked_on_block",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Dardo e Porta"
+    },
+    {
+      "name": "PortaVermelhaChave",
+      "type": "tool",
+      "sortid": 79,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "porta_vermelha_chave",
+      "path": "~/Dardo e Porta"
+    },
+    {
+      "name": "FgjfgjjOnBlockRightClicked",
+      "type": "procedure",
+      "sortid": 80,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fgjfgjj_on_block_right_clicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Dardo e Porta"
+    },
+    {
+      "name": "Fgjfgjj",
+      "type": "block",
+      "sortid": 80,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fgjfgjj",
+      "path": "~/Dardo e Porta"
     }
   ],
   "variable_elements": [
@@ -990,6 +1062,7 @@
   "language_map": {
     "en_us": {
       "item.yttd_mod.pernadireita_item": "Perna Direita da Boneca",
+      "block.yttd_mod.fgjfgjj": "Fgjfgjj",
       "item.yttd_mod.chave_2": "Chave Vermelha",
       "item.yttd_mod.torsoitem": "Torso da Boneca",
       "item.yttd_mod.colar_helmet": "Colar",
@@ -1007,6 +1080,7 @@
       "item.yttd_mod.perna_esquerda_item": "Perna Esquerda da Boneca",
       "item.yttd_mod.bracoesquerdo": "Braço Direito da Boneca",
       "block.yttd_mod.caixa": "Caixa",
+      "item.yttd_mod.porta_vermelha_chave": "Porta Vermelha Chave",
       "block.yttd_mod.naguentomais": "Boneca Completa",
       "item.yttd_mod.carta_sacrificio": "Carta Sacrifício",
       "item.yttd_mod.cabeca_item": "Cabeça da Boneca",
@@ -1074,6 +1148,10 @@
         "children": [
           {
             "name": "Arma Real",
+            "children": []
+          },
+          {
+            "name": "Arma Falsa",
             "children": []
           }
         ]

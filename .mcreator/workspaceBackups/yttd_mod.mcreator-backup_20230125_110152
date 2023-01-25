@@ -749,7 +749,7 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "arma_falsa",
-      "path": "~/Arma"
+      "path": "~/Arma/Arma Falsa"
     },
     {
       "name": "BalaReal",
@@ -767,7 +767,7 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "bala_falsa",
-      "path": "~/Arma"
+      "path": "~/Arma/Arma Falsa"
     },
     {
       "name": "ArmaRealCanUseRangedItem",
@@ -798,12 +798,12 @@
         "return_type": "logic",
         "dependencies": [
           {
-            "name": "itemstack",
-            "type": "itemstack"
+            "name": "world",
+            "type": "world"
           }
         ]
       },
-      "path": "~/Arma"
+      "path": "~/Arma/Arma Falsa"
     },
     {
       "name": "ArmaRealRangedItemUsed",
@@ -838,10 +838,14 @@
           {
             "name": "itemstack",
             "type": "itemstack"
+          },
+          {
+            "name": "world",
+            "type": "world"
           }
         ]
       },
-      "path": "~/Arma"
+      "path": "~/Arma/Arma Falsa"
     },
     {
       "name": "BalaRealOverlay",
@@ -876,10 +880,14 @@
           {
             "name": "entity",
             "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
           }
         ]
       },
-      "path": "~/Arma"
+      "path": "~/Arma/Arma Falsa"
     },
     {
       "name": "BalaRealReload",
@@ -923,10 +931,14 @@
           {
             "name": "entity",
             "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
           }
         ]
       },
-      "path": "~/Arma"
+      "path": "~/Arma/Arma Falsa"
     },
     {
       "name": "BalaFalsaReload",
@@ -935,7 +947,7 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "bala_falsa_reload",
-      "path": "~/Arma"
+      "path": "~/Arma/Arma Falsa"
     },
     {
       "name": "Colar",
@@ -952,17 +964,24 @@
       }
     },
     {
-      "name": "J",
-      "type": "code",
+      "name": "PortaVermelha",
+      "type": "block",
       "sortid": 79,
       "compiles": true,
-      "locked_code": true,
-      "registry_name": "j"
+      "locked_code": false,
+      "registry_name": "porta_vermelha",
+      "path": "~/Dardo e Porta"
     }
   ],
   "variable_elements": [
     {
       "name": "balas",
+      "type": "number",
+      "scope": "map",
+      "value": "0"
+    },
+    {
+      "name": "balasfake",
       "type": "number",
       "scope": "map",
       "value": "0"
@@ -990,6 +1009,7 @@
       "item.yttd_mod.bracoesquerdo": "Braço Direito da Boneca",
       "block.yttd_mod.caixa": "Caixa",
       "block.yttd_mod.naguentomais": "Boneca Completa",
+      "block.yttd_mod.porta_vermelha": "Porta Vidro",
       "item.yttd_mod.carta_sacrificio": "Carta Sacrifício",
       "item.yttd_mod.cabeca_item": "Cabeça da Boneca",
       "item.yttd_mod.bala_real": "Bala Real",
@@ -1056,6 +1076,10 @@
         "children": [
           {
             "name": "Arma Real",
+            "children": []
+          },
+          {
+            "name": "Arma Falsa",
             "children": []
           }
         ]
